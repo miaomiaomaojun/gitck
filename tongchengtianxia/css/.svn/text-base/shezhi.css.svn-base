@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+
+ /*这是收藏订单*/
+
+.dingdan .dingdan_right .shezhi .shezhi_title{
+	width: 822px;
+	margin:10px 0 0 8px;	
+	height: 40px;
+	line-height: 40px;
+	background: #f7f7f7;
+	text-indent: 40px;
+	font-size: 16px;
+	color: #f90;
+}
+
+
+.dingdan .dingdan_right .shezhi .shezhi_list{
+	margin-left: 8px;
+	width: 822px;
+}
+.dingdan .dingdan_right .shezhi .shezhi_list li{
+	width: 272px;
+	height: 204px;
+	border: 1px solid #999;
+	margin:26px 0 4px 0;
+	float: left;
+}
+.dingdan .dingdan_right .shezhi .shezhi_list li .dv1{
+	height: 110px;
+}
+.dingdan .dingdan_right .shezhi .shezhi_list li .dv1 dt{
+	float: left;
+	width: 92px;
+	margin-right: 10px;
+	height: 100%;
+	background: greenyellow;
+}
+.dingdan .dingdan_right .shezhi .shezhi_list li .dv1 dt span{
+	display: inline-block;
+	width: 60px;
+	height: 70px;
+	margin:20px 16px;
+	background:url(/Myweb/img/shezhi.png) -5px -5px;
+}
+
+.dingdan .dingdan_right .shezhi .shezhi_list li .dv1 dd{
+	float: left;
+	width: 170px;
+	height: 100%;
+	background: red;
+}
+
+
+.dingdan .dingdan_right .shezhi .shezhi_list li .dv2{
+	height: 94px;
+	background: green;
+}

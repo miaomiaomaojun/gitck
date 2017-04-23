@@ -1,0 +1,35 @@
+<div style="margin: 15px;">
+	<form class="layui-form">
+		<div class="layui-form-item">
+			<label class="layui-form-label">订单编号&nbsp;:</label>
+			<div class="layui-input-inline">
+				<label class="layui-form-label key">123546987</label>
+			</div>
+		</div>
+		<div class="layui-form-item">
+			<label class="layui-form-label">秘钥&nbsp;:</label>
+			<div class="layui-input-inline">
+					<label class="layui-form-label key">1252636555</label>
+			</div>
+		</div>
+			
+		<!--数字-->
+		<div class="layui-form-item">
+			<label class="layui-form-label">状态&nbsp;:</label>
+			<div class="layui-input-inline">
+					<label class="layui-form-label key">已审核</label>
+			</div>
+		</div>
+		<!--数字-->
+		<div class="layui-form-item">
+			<label class="layui-form-label">时间&nbsp;:</label>
+			<div class="layui-input-inline">
+					<label class="layui-form-label key">2017-01-20</label>
+			</div>
+
+		</div>
+		
+		
+		<button lay-filter="edit" lay-submit style="display: none;"></button>
+	</form>
+</div>

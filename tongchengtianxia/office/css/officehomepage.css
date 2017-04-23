@@ -1,0 +1,281 @@
+/*公共样式-更多*/
+	.get_more {
+		width: 60px;
+		height: 20px;
+		float: right;
+		margin: 20px 20px 30px;
+	}
+	.get_more a {
+		font-family: "微软雅黑";
+		color: #00c1de;
+		font-size: 14px;
+	}
+	
+	.get_more a span {
+		width: 20px;
+		height: 20px;
+		display: inline-block;
+		background: url(../images/master.png) no-repeat -27px 0px;
+	}
+	.homepage{
+		background: #eeeeef;
+	}
+	
+/*主体头部滚动公告*/
+	.notice_contain {
+		height: 30px;
+		width: 100%;
+		background-color: #FFFFFF;
+	}
+	.notice_contain p {
+		width: 60px;
+		float: left;
+		line-height: 30px;
+		margin-left: 20px;
+		font-family: '微软雅黑';
+		font-size: 14px;
+		color: #231815;
+	}
+	.notice_contain #notice {
+		background-color: #FFFFFF;
+		overflow: hidden;
+		height: 20px;
+		float: left;
+		margin-top: 5px;
+	}
+	.notice_contain #notice ul {
+		height: auto;
+		overflow: hidden;
+	}
+	
+	.notice_contain #notice ul li {
+		line-height: 30px;
+	}
+	
+	.notice_contain #notice ul li span {
+		font-family: "微软雅黑";
+		color: #b5b5b6;
+		margin: 0px 5px;
+		font-size: 13px;
+	}
+	
+	.notice_contain #notice .gonggao {
+		color: #0066cc;
+	}
+
+	/*新闻,公告,通知 的标题公共样式*/
+	.news_table_title p {
+		font-family: "微软雅黑";
+		font-size: 18px;
+		color: #555555;
+		margin: 15px 0 8px 17px;
+	}
+
+/*公告样式*/
+	.homepage .news {
+		background-color: #FFFFFF;
+		height: 180px;
+		overflow: hidden;
+		margin: 20px 360px 20px 20px;
+	}
+	.homepage .news .news_title {
+		font-family: "微软雅黑";
+		color: #999999;
+		font-size: 14px;
+		text-align: center;
+		margin-top: -20px;
+	}
+	.homepage .news .news_contains {
+		line-height: 21px;
+		font-family: "微软雅黑";
+		color: #999999;
+		font-size: 14px;
+		margin: 10px 20px 20px 20px;
+		text-indent: 30px;
+		height: 110px;
+		overflow: auto;
+	}
+	
+
+
+/*日历样式*/	
+	.homepage .watch {
+		width: 320px;
+		height: 180px;
+		background-color: #FFFFFF;
+		float: right;
+		margin: 20px 18px 20px 0px;
+	}
+/*新闻动态*/	
+	.homepage .message {
+		width: 338px;
+		height: auto;
+		min-height: 500px;
+		background-color: #FFFFFF;
+		float: right;
+		margin: 0 0 20px 0px;
+	}
+	.homepage .message .news_list {
+		padding: 0 20px;
+	}
+	
+	.homepage .message .news_list li {
+		margin: 5px;
+	}
+	
+	.homepage .message .news_list .title {
+		border-bottom: 1px dashed #898989;
+		height: 50px;
+		;
+		font-size: 14px;
+		color: #898989;
+		height: 23px;
+		line-height: 23px;
+		margin: 0px 0px 5px 0px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap
+	}
+	
+	.homepage .message .news_list .title:hover {
+		color: #0066cc;
+	}
+	
+	.homepage .message .news_list .neirong {
+		font-size: 12px;
+		color: #B5B5B6;
+		line-height: 16px;
+		margin: 0 5px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	
+	.homepage .message .news_list .time {
+		font-size: 12px;
+		color: #B5B5B6;
+		line-height: 20px;
+		margin: 0 5px;
+		text-align: right;
+	}
+
+	
+	/*故事*/
+	.homepage .x_box {
+		background-color: #FFFFFF;
+		height: auto;
+		overflow: hidden;
+		margin: 20px 360px 20px 20px;
+		position: relative;
+	}
+	
+	.homepage .x_box ul li:last-child {
+		border-right: none
+	}
+	
+	.homepage .x_box ul li {
+		border-right: 1px #efefef solid;
+		width: 426px;
+		height: 140px;
+		float: left;
+		margin-left: 10px;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+	.homepage .x_box ul li.bor_r0{
+		border-right: 0;
+	}
+	.homepage .x_box .get_more {
+		position: absolute;
+		right: 20px;
+		bottom:10px;
+		margin: 0;
+	}		
+	.homepage .x_box ul li .photo {
+		height: 60px;
+		width: 60px;
+		float: left;
+		margin-top: 40px;
+		margin-left: 20px;
+		border-radius: 50%;
+	}
+	.homepage .x_box ul li .divr {
+		width: 300px;
+		max-height: 120px;
+		height: auto;
+		float: left;
+		margin-top: 15px;
+		margin-left: 10px;
+		text-overflow: ellipsis;
+		overflow: hidden
+	}
+	.homepage .x_box ul li .divr .divr_title {
+		font-size: 14px;
+		color: #999999;
+		line-height: 35px;
+		border-bottom: 1px #999999 dashed;
+	}
+	.homepage .x_box ul li .divr .divr_title:hover{
+		color: #0066cc;
+		border-bottom: 1px #0066cc dashed;
+	}
+	
+	.homepage .x_box ul li .divr .divr_contain {
+		font-size: 12px;
+		line-height: 17px;
+		margin: 5px 0;
+		color: #999999;
+	}
+	
+	
+	
+	
+	
+	
+	
+/*通知公告*/
+	.homepage .news_table {
+		margin: 20px 360px 20px 20px;
+		height: auto;
+		min-height: 300px;
+		overflow: hidden;
+		background: #FFFFFF;
+	}
+	.homepage .news_table .news_table_list {
+		margin-left: 32px;
+		margin-right: 20px;
+		border-bottom: 1px #efefef  solid;
+		padding-bottom: 20px;
+	}
+	.homepage .news_table .news_table_list li {
+		margin-left: 5px;
+		height: 35px;
+		line-height: 35px;
+		font-size: 12px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	.homepage .news_table .news_table_list li a p {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		margin-right: 100px;
+	}	
+	.homepage .news_table .news_table_list li a .time {
+		float: right;
+		z-index: 99;
+		font-family: "微软雅黑";
+		margin-right: 5px;
+	}
+	.homepage .news_table .news_table_list li a {
+		color: #999999;
+	}
+	.homepage .news_table .news_table_list li a:hover {
+		color: #0066CC;
+	}
+	
+	
+	
+	
+
+	
+	

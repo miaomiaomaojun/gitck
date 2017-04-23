@@ -1,0 +1,263 @@
+@charset "utf-8";
+
+.wrap {
+	width: 1016px;
+	margin: 0 auto;
+	
+}
+
+
+/*头部*/
+
+.header {
+	width: 100%;
+	height: 138px;
+	background: #fff;
+}
+
+.header .logo {
+	height: 138px;
+	line-height: 138px;
+}
+
+.header .logo a img {
+	width: 225px;
+	line-height: 138px;
+}
+
+
+/*主体*/
+
+.center {
+	width: 100%;
+	background: #f1d859;
+	height: 500px;
+}
+
+.center .wrap {
+	height: 100%;
+	background:#f1d859 url(/Myweb/img/centerbg.png) no-repeat left bottom;
+}
+
+.center .guang {
+	margin-top: 14px;
+	float: right;
+	width: 382px;
+	height: 472px;
+	background: url(/Myweb/img/guang.png);
+}
+
+.center .c_login {
+	margin-top: 14px;
+	margin-left: 14px;
+	width: 355px;
+	height: 404px;
+	background: #fff;
+	padding-top: 40px;
+	overflow: hidden;
+}
+
+.center .c_login .c_l_tishi {
+	margin: 0 auto;
+	border: 1px solid #ea6000;
+	width: 268px;
+	height: 32px;
+	background: #fff9f5;
+	display: none;
+}
+
+.center .c_login .c_l_tishi.active {
+	display: block;
+}
+
+.center .c_login .c_l_tishi p {
+	font-size: 12px;
+	line-height: 32px;
+	text-align: center;
+	color: #ea6000;
+}
+
+.center .c_login .c_l_wrap {
+	margin: 18px auto;
+	border: 1px solid #c8c9ca;
+	width: 268px;
+	height: 32px;
+	line-height: 32px;
+}
+
+.center .c_login .c_l_wrap.c_l_user {
+	margin-top: 6px;
+}
+
+.center .c_login .c_l_wrap.c_l_user.active {
+	margin-top: 30px;
+}
+
+.center .c_login .c_l_wrap label {
+	display: inline-block;
+	width: 45px;
+	padding-left: 5px;
+}
+
+.center .c_login .c_l_wrap input {
+	border: none;
+	outline: none;
+	text-indent: 5px;
+}
+
+.center .c_login .c_l_yzm {
+	margin: 9px auto;
+	width: 268px;
+	height: 34px;
+	line-height: 34px;
+}
+
+.center .c_login .c_l_yzm input {
+	float: left;
+	width: 140px;
+	border: 1px solid #C8C9CA;
+	outline: none;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	letter-spacing: 5px;
+}
+
+.center .c_login .c_l_yzm img {
+	margin: 0 3px;
+	float: left;
+	width: 80px;
+	height: 34px;
+	border: none;
+}
+
+.center .c_login .c_l_yzm span {
+	display: inline-block;
+	width: 36px;
+	height: 34px;
+	line-height: 17px;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.center .c_login .c_l_zid {
+	margin: 9px auto;
+	width: 268px;
+	height: 16px;
+}
+
+.center .c_login .c_l_zid b {
+	float: left;
+	margin-top: 3px;
+	display: inline-block;
+	width: 13px;
+	height: 13px;
+	background: url(/Myweb/img/gou.png) no-repeat right top;
+}
+
+.center .c_login .c_l_zid .active {
+	background-position: left top;
+}
+
+.center .c_login .c_l_zid span {
+	font-size: 12px;
+	float: left;
+	margin-left: 4px;
+}
+
+.center .c_login .c_l_deng {
+	margin: 9px auto;
+	width: 268px;
+	height: 34px;
+}
+
+.center .c_login .c_l_deng p {
+	height: 32px;
+	line-height: 32px;
+	border: 1px solid #eb6100;
+	background: url(/Myweb/img/btn2.png) repeat-x;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+}
+
+.center .c_login .c_l_link {
+	margin: 9px auto;
+	width: 268px;
+	height: 16px;
+}
+
+.center .c_login .c_l_link .register {
+	float: left;
+	font-size: 12px;
+	color: #ea6000;
+}
+
+.center .c_login .c_l_link .foget {
+	float: right;
+	font-size: 12px;
+	color: #ea6000;
+}
+
+.center .c_login .c_l_other {
+	margin: 30px auto 20px auto;
+	width: 268px;
+	height: 16px;
+	line-height: 16px;
+}
+
+.center .c_login .c_l_other .left {
+	margin-top: 8px;
+	float: left;
+	width: 90px;
+	height: 1px;
+	background: #999;
+}
+
+.center .c_login .c_l_other span {
+	float: left;
+	font-size: 12px;
+	width: 88px;
+	text-align: center;
+	color: #999;
+}
+
+.center .c_login .c_l_others {
+	margin: 10px auto;
+	width: 268px;
+	text-align: center;
+}
+
+.center .c_login .c_l_others a {
+	margin: 0 10px;
+}
+
+
+/*底部*/
+
+.footer {
+	width: 100%;
+	margin: 40px 0;
+}
+
+.footer .wrap p {
+	text-align: center;
+	font-size: 12px;
+}
+
+.footer .wrap .f_p1 a {
+	color: #000;
+	margin: 0 5px;
+}
+
+.footer .wrap .f_p2 span {
+	font-size: 14px;
+}
+
+.footer .wrap .f_p3 {
+	color: #666;
+}
+
+.footer .wrap .f_p3 a {
+	color: #1169ab;
+}

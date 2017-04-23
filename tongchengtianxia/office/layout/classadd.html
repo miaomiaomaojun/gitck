@@ -1,0 +1,65 @@
+<style>
+	#ImgPr{
+		width:50px;
+		height:50px;
+	}
+</style>
+<div style="margin: 15px;">
+	<form class="layui-form">
+		<div class="layui-form-item">
+			<label class="layui-form-label">类目级别</label>
+			<div class="layui-input-inline">
+				<select name="quiz1">
+					<option value="">请选择类目</option>
+					<option value="一级">一级类目</option>
+					<option value="二级">二级类目</option>
+				</select>
+			</div>
+		</div>
+		<div class="layui-form-item">
+			<label class="layui-form-label">类目名称</label>
+			<div class="layui-input-inline">
+				<input type="text" name="username" lay-verify="required" autocomplete="off" class="layui-input" placeholder="请输入">
+			</div>
+		</div>
+			
+		<!--数字-->
+		<div class="layui-form-item">
+			<label class="layui-form-label">排序</label>
+			<div class="layui-input-inline">
+				<input type="number" name="number" lay-verify="number" autocomplete="off" class="layui-input">
+			</div>
+		</div>
+		<!--数字-->
+		<div class="layui-form-item">
+			<label class="layui-form-label">是否推荐</label>
+			<div class="layui-input-block">
+				<input type="radio" name="tuijian" value="是" title="是" checked="">
+				<input type="radio" name="tuijian" value="否" title="否">
+			</div>
+		</div>
+
+		<div class="layui-form-item">
+			<label class="layui-form-label">图标</label>
+			<div class="layui-input-block">
+				<input type="file" accept="image/gif,image/jpg,image/jpeg,image/bmp,image/png" id="chuan"/>
+			</div>
+		</div>
+		<div class="layui-form-item">
+			<label class="layui-form-label">图标预览</label>
+			<div class="layui-input-block">
+				<img src="" alt="" id="ImgPr" />
+			</div>
+		</div>
+		<button lay-filter="edit" lay-submit style="display: none;"></button>
+	</form>
+</div>
+	<script src="../js/JQ_tupianyulan.js" type="text/javascript" charset="utf-8"></script>
+	<script>
+
+		$(function() {
+			$("#chuan").uploadPreview({ Img: "ImgPr", Width:50, Height:50, ImgType: ["gif", "jpeg", "jpg", "bmp", "png"] });
+		});
+
+	</script>
+				

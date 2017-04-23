@@ -1,0 +1,28 @@
+*{ margin:0; padding:0; list-style:none;}
+img{ border:0;}
+
+.ban{ width:496px; height:320px; position:relative; overflow:hidden;margin:60px auto 0 auto;}
+.ban2{ width:496px; height:316px; position:relative; overflow:hidden;}
+.ban2 ul{ position:absolute; left:0; top:0;}
+.ban2 ul li{ width:495px; height:450px;}
+.ban2 ul li img{
+	width: 495px;height: 316px;
+}
+.prev{ float:left; cursor:pointer;}
+.num{ height:82px;overflow:hidden; width:495px; position:relative;float:left;}
+.min_pic{ padding-top:54px; width:100%;}
+.num ul{ position:absolute; left:0; top:0;width:1000px!important;}
+.num ul li{ width:76px; height:76px; margin-right:5px; padding:1px;}
+.num ul li img{ width:76px; height:76px;}
+.num ul li.on{ border:1px solid #F29518; padding:0;}
+.prev_btn1{ width:38px; text-align:center; height:75px; margin:55px 20px auto 15px; cursor:pointer; float:left;background: url(../img/detailmenu.png) no-repeat -76px -212px;}
+.next_btn1{  width:38px; text-align:center; height:75px; margin:2px 15px auto 10px;cursor:pointer;float:right;background: url(../img/detailmenu.png) no-repeat -76px -312px;}
+.prev1{ position:absolute; top:60px; left:0px; width:76px; height:316px;z-index:9;cursor:pointer;background: url(../img/detailmenu.png) no-repeat -232px 0px;display: none;}
+.next1{ position:absolute; top:60px; right:0px; width:76px; height:316px;z-index:9;cursor:pointer;background: url(../img/detailmenu.png) no-repeat -345px 0px;display: none;}
+.mhc{ background:#000; width:100%;opacity:0.5;-moz-opacity:0.5;filter:alpha(Opacity=50); position:absolute; left:0; top:0; display:none;}
+.pop_up{ width:500px; height:500px; padding:10px; background:#fff; position:fixed; -position:absolute; left:50%; top:50%; margin-left:-255px; margin-top:-255px; display:none; z-index:99;}
+.pop_up_xx{ width:40px; height:40px; position:absolute; top:-40px; right:0; cursor:pointer;}
+.pop_up2{ width:500px; height:500px; position:relative; overflow:hidden;}
+.pop_up2{ width:500px; height:500px; position:relative; overflow:hidden; float:left;}
+.pop_up2 ul{ position:absolute; left:0; top:0;}
+.pop_up2 ul li{ width:500px; height:500px; float:left;}

@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+.dingdan{
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.dingdan .dingdan_left{
+	border-top:1px solid #eeeeef;
+	float: left;
+	width: 162px;
+	background: #f7f7f7;
+}
+.dingdan .dingdan_left ul>li{
+	color: #3E3A39;
+	text-indent: 53px;
+}
+.dingdan .dingdan_left ul>li>a{
+	display: block;
+	color: #3E3A39;
+}
+.dingdan .dingdan_left ul div{
+	height:0;
+	margin: 0 10px;
+	border-top: 1px solid #dbdcdc;
+	border-bottom:1px solid #fff;
+}
+
+.dingdan .dingdan_left ul>li{
+	line-height: 48px;
+}
+
+.dingdan .dingdan_left ul>.active{
+	background-color: #f79f1e;
+	color: #fff;
+}
+.dingdan .dingdan_left ul>.active a{
+	background-color: #f79f1e;
+	color: #fff;
+}
+
+
+.dingdan .dingdan_left ul li ol li a{
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	color: #999999;
+}
+.dingdan .dingdan_left ul li ol .active{
+	background-color: #f79f1e;
+	color: #fff;
+}
+.dingdan .dingdan_left ul li ol .active a{
+	background-color: #f79f1e;
+	color: #fff;
+}
+.dingdan .dingdan_left ul .border_b0{
+	border-bottom: 0;
+}
+.dingdan .dingdan_left ul .border_t0{
+	border-top: 0;
+}
+
+
+/*订单页右边*/
+.dingdan .dingdan_right{
+	border-top:1px solid #eeeeef;
+	float: left;
+	width: 840px;
+	margin-left:15px;
+	position: relative;
+	padding-bottom: 50px;
+}
+
+
+
+/*分页器样式*/
+
+.dingdan .dingdan_right .holder{
+	position:absolute ;
+	bottom:10px;
+	left:40%;
+	margin-top: 0;
+}
+.dingdan .dingdan_right .holder a{
+	font-size: 12px;
+	border: 1px solid #eeeeef;
+	color: #999;
+}
+
+.dingdan .dingdan_right .holder a:hover {
+	background-color: #fff;
+	border-color: #F79F1E;
+	color: #F79F1E;
+}
+
+.dingdan .dingdan_right .holder a.jp-current,
+.dingdan .dingdan_right .holder a.jp-current:hover{ 
+	color: #FFF;
+	font-weight: bold;
+	border-color: #F79F1E;
+	background: #F79F1E;
+}
+
+.dingdan .dingdan_right .holder a.jp-disabled,
+.dingdan .dingdan_right .holder a.jp-disabled:hover {
+	color: #bbb;
+}
+
+.dingdan .dingdan_right .holder a.jp-current,
+.dingdan .dingdan_right .holder a.jp-current:hover,
+.dingdan .dingdan_right .holder a.jp-disabled,
+.dingdan .dingdan_right .holder a.jp-disabled:hover {
+	cursor: default; 
+}

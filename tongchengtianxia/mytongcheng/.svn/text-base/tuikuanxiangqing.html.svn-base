@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>同城天下-退款详情</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="关键词">
+		<meta name="author" content="易保易购" />
+		<meta name="description" content="详细介绍">
+		<link rel="shortcut icon" href="/Myweb/img/favicon.ico" />
+		<link href="/Myweb/css/rest.css" rel="stylesheet" type="text/css" />
+		<link href="/Myweb/css/index_hf.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="/Myweb/css/tuikuanxiangqing.css" />
+	</head>
+
+	<body>
+		<!--头部-->
+		<div class="header">
+			<div class="wrap">
+				<div class="h_left">
+					<ul>
+						<li>
+							<a href="" class="bfpf0 h_link">同城天下保险</a>
+						</li>
+						<li>
+							<a href="" class="h_link">我的订单</a>
+						</li>
+						<li>
+							<a href="" class="h_link">我的同城天下<i class="h_link_d"></i></a>
+							<dl id="" class="dls">
+								<dt><span class="jiantou jiantou_up"></span></dt>
+								<dd>
+									<a href="">我的订单</a>
+								</dd>
+								<dd>
+									<a href="">我的评价</a>
+								</dd>
+								<dd>
+									<a href="">我的收藏</a>
+								</dd>
+								<dd>
+									<a href="">抵用券</a>
+								</dd>
+								<dd>
+									<a href="">我的余额</a>
+								</dd>
+								<dd class="border_b0">
+									<a href="">账户设置</a>
+								</dd>
+							</dl>
+						</li>
+						<li>
+							<a href="" class="h_link">我是商家<i class="h_link_d"></i></a>
+							<dl id="" class="dls">
+								<dt><span class="jiantou jiantou_up"></span></dt>
+								<dd>
+									<a href="">商家中心</a>
+								</dd>
+								<dd class="border_b0">
+									<a href="">我想合作</a>
+								</dd>
+							</dl>
+						</li>
+						<li>
+							<a href="" class="h_link">联系客服<i class="h_link_d"></i></a>
+							<dl id="" class="dls">
+								<dt><span class="jiantou jiantou_up"></span></dt>
+								<dd>
+									<a href="">帮助中心</a>
+								</dd>
+								<dd>
+									<a href="">在线客服</a>
+								</dd>
+								<dd>
+									<a href="">电话客服</a>
+								</dd>
+								<dd class="border_b0">
+									<a href="">商务合作</a>
+								</dd>
+							</dl>
+						</li>
+					</ul>
+				</div>
+				<div class="h_right">
+					<ul>
+						<li>
+							<a class="bfpf0 h_link">徐州</a>
+						</li>
+						<li>
+							<a class="h_link">切换城市<i class="h_link_d"></i></a>
+							<dl id="" class="dls">
+								<dt><span class="jiantou jiantou_up"></span></dt>
+								<dd>
+									<p>热门城市</p>
+								</dd>
+								<dd><span>北京</span><span>上海</span><span>广州</span><span>深圳</span><span>天津</span><span>杭州</span><span>西安</span><span>成都</span><span>郑州</span><span>厦门</span><span>青岛</span><span>太原</span><span>重庆</span><span>武汉</span><span>南京</span><span>沈阳</span><span>济南</span><span>哈尔滨</span></dd>
+								<dd>
+									<a href="" class="morecity">更多城市<i></i></a>
+								</dd>
+							</dl>
+						</li>
+						<li class="willlogin active">
+							<a href="/Myweb/register/login.html" class="h_link">登陆</a>
+						</li>
+						<li class="willlogin active">
+							<a href="/Myweb/register/register.html" class="h_link">注册</a>
+						</li>
+						<li class="loginer">
+							<a class="h_link"><i class="yonghu">1</i> <span>退出</span></a>
+						</li>
+						<li>
+							<a class="pr0 h_link">手机同城天下</a>
+							<dl id="" class="dls erweima">
+								<dt><span class="jiantou jiantou_up"></span></dt>
+								<dd><img src="/Myweb/img/erweima.png" /></dd>
+							</dl>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--logo和搜索-->
+		<div style="width: 100%;height: 0;clear: both;"></div>
+		<div class="logo">
+			<div class="wrap">
+				<h1 class="logo_left">
+					<a href="/Myweb/index.html">
+						<img src="/Myweb/img/logo.png" alt="同城天下" title="同城天下" />
+					</a>				
+				</h1>
+				<ul class="logo_center">
+					<li>
+						<a href="/Myweb/tongcheng/tongcheng_food.html">美食</a>
+					</li>
+					<li>
+						<a href="">品牌商家</a>
+					</li>
+					<li>
+						<a href="">外卖</a>
+					</li>
+					<li>
+						<a href="">酒店</a>
+					</li>
+					<li>
+						<a href="">丽人</a>
+					</li>
+					<li>
+						<a href="">购物</a>
+					</li>
+					<li>
+						<a href="">今日新单</a>
+					</li>
+				</ul>
+				<div class="logo_right">
+					<input type="text" placeholder="搜索商家、商品或商圈" />
+					<div>
+						<span></span>
+					</div>
+					<ul style="display: none;">
+						<li>aaaaaa</li>
+						<li>aaaaaa</li>
+						<li>aaaaaa</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--订单主体-->
+		<div style="width: 100%;height: 0;clear: both;"></div>
+		<div class="main">
+			<div class="wrap">
+				<h2>退款详情</h2>
+				<div class="main_top">
+					<p class="top_title">
+						退款金额：<span>88</span>元&nbsp;&nbsp;&nbsp;&nbsp;退款方式：<i>原路退款</i>
+					</p>
+					<div class="top_center jine">
+						<div class="dv1">
+							<ul>
+								<li><i>&nbsp;</i><span>88.00</span>元退款申请已提交，请耐心等待！</li>
+								<li><i>&nbsp;</i><span>88.00</span>元已退款同城天下已处理完成，请耐心等待！</li>
+								<li><i>&nbsp;</i><span>88.00</span>元已退款支付平台已处理完成，请耐心等待！</li>
+								<li class="active"><i class="success">&nbsp;</i><span>88.00</span>元已成功退至您的账户</li>
+							</ul>
+						</div>
+						<div class="dv2"></div>
+						<div class="dv3">
+							<div class="dv3_buzhou">
+								<i class="buzhou_1"></i><span class="active"></span>
+								<i class="buzhou_2 active"></i><span></span>
+								<i class="buzhou_3"></i><span></span>
+								<i class="buzhou_4"></i>
+							</div>
+							<div class="dv3_zhuangtai">
+								<p class="active">提交申请</p>
+								<p class="active">同城天下处理完成</p>
+								<p class="p3">支付平台处理完成</p>
+								<p class="p4">退款成功</p>
+							</div>
+							<div class="dv3_shijian">
+								<p class="">2017-03-09&nbsp;&nbsp;09:18</p>
+								<p class="">2017-03-09&nbsp;&nbsp;09:18</p>
+								<p class="">2017-03-09&nbsp;&nbsp;09:18</p>
+								<p class="">2017-03-09&nbsp;&nbsp;09:18</p>
+							</div>
+						</div>
+					</div>
+					<p class="top_title">
+						退回积分：<span>125</span>积分&nbsp;&nbsp;&nbsp;&nbsp;退回方式：<i>原路退款</i>
+					</p>
+					<div class="top_center jifen">
+						<div class="dv1">
+							<ul>
+								<li><i>&nbsp;</i><span>125</span>积分退回申请已提交，请耐心等待！</li>
+								<li><i>&nbsp;</i><span>125</span>积分退回申请同城天下已处理完成，请耐心等待！</li>
+								<li class="active"><i class="success">&nbsp;</i><span>125</span>积分已成功退至您的账户</li>
+							</ul>	
+						</div>
+						<div class="dv2"></div>
+						<div class="dv3">
+							<div class="dv3_buzhou">
+								<i class="buzhou_1"></i>
+								<span class="active"></span>
+								<i class="buzhou_2 active"></i>
+								<span></span>
+								<i class="buzhou_3"></i>
+							</div>
+							<div class="dv3_zhuangtai">
+								<p class="active">提交申请</p>
+								<p class="active">同城天下处理完成</p>
+								<p class="">积分退回成功</p>
+							</div>
+							<div class="dv3_shijian">
+								<p class="">2017-03-09&nbsp;&nbsp;09:18</p>
+								<p class="">2017-03-09&nbsp;&nbsp;09:18</p>
+								<p class="">2017-03-09&nbsp;&nbsp;09:18</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<h2>退款记录</h2>
+				<div class="main_bottom">
+					<dl>
+						<dt>
+							<div class="dv1">商家信息</div>
+							<div class="dv2">申请退款时间</div>
+							<div class="dv3"><p class="dv3_p1">退款金额</p><p class="dv3_p2">积分</p></div>
+							<div class="dv4">退款方式</div>
+							<div class="dv5">状态</div>
+						</dt>
+						<dd>
+							<p class="dd_title">订单编号：<i>123456789</i></p>
+							<div class="dd_content">
+								<div class="dv1">青菜园土菜馆<a href="">订单详情<b>&nbsp;</b></a></div>
+								<div class="dv2">2017-03-19&nbsp;&nbsp;09:12</div>
+								<div class="dv3">
+									<p class="dv3_p1">88.00</p>
+									<p class="dv3_p2">128</p>
+								</div>
+								<div class="dv4">原路退</div>
+								<div class="dv5">退款成功</div>
+							</div>
+							<div class="dd_foot">
+								<p>被拒退：<i>0</i>&nbsp;&nbsp;退款中：<i>0</i>&nbsp;&nbsp;退款成功：<i>1</i></p>
+							</div>
+						</dd>
+					</dl>
+				</div>
+			</div>
+	
+		</div>
+		<!--联系电话-->
+		<div style="width: 100%;height: 0;clear: both;"></div>
+		<div class="telephone">
+			<div class="wrap">
+				<div class="telephone_center">
+					<div class="telephone_center_left">
+						<p class="p1">客服电话</p>
+						<p class="p2">400-8843-877</p>
+						<p class="p3">周一至周日8:00-22:00</p>
+					</div>
+					<div class="telephone_center_middle">
+						<h4>同城天下</h4>
+						<p>同城天下是服务于消费者吃喝玩乐的五折团购+外卖平台，构建积分+五折+社交的创新商业模式，从首创“积分价”概念到明晰的市场定位，同城天下以强劲内在驱动跳跃式前进</p>
+					</div>
+					<div class="telephone_center_right">
+						<h4>扫码下载同城天下APP</h4>
+						<img src="/Myweb/img/erweima.png" alt="" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--底部-->
+		<div style="width: 100%;height: 0;clear: both;"></div>
+		<div class="footer">
+			<div class="wrap">
+				<div class="footer_center">
+					<div class="footer_center_top">
+						<img src="/Myweb/img/suishitui.png" />
+						<img src="/Myweb/img/xianxingpeifu.png" />
+						<img src="/Myweb/img/guoqitui.png" />
+					</div>
+					<p class="footer_center_middle">
+						<a href="">帮助中心</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+						<a href="">店主之家</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+						<a href="">支付方式</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+						<a href="">售后服务</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+						<a href="">客服中心</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+						<a href="">关于我们</a>
+					</p>
+					<p class="footer_center_buttom">&copy;&nbsp;2017&nbsp;徐州掌汇网络科技有限公司&nbsp;zhanghuitongcheng.com&nbsp;
+						<a href="">苏ICP备15009587号-2</a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		
+	</body>
+	<script src="/Myweb/js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+	<script src="/Myweb/js/jquery-migrate-1.1.1.js" type="text/javascript" charset="utf-8"></script>
+	<script src="/Myweb/js/index_h.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		
+	</script>
+</html>

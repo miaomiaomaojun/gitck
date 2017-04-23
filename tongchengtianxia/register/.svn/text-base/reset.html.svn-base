@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>重置密码</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="关键词">
+		<meta name="author" content="易保易购" />
+		<meta name="description" content="详细介绍">				
+		<link rel="shortcut icon" href="/Myweb/img/favicon.ico"/>
+		<link href="/Myweb/css/rest.css" rel="stylesheet" type="text/css" />
+		<link href="/Myweb/css/reset.css" rel="stylesheet" type="text/css" />		
+	</head>
+	<body>
+		
+		<div class="zhezhao"></div>		
+		<div class="zhezhao_bor">
+			<div class="zhezhao_in">
+				<img src="/Myweb/img/biglogo.png" alt="" />
+				<p>恭喜您，登陆密码已重置成功</p>
+				<a href="login.html">立即登陆</a>
+			</div>			
+		</div>
+		
+		<div class="inner">	
+			<div class="header">
+				<h1 class="logo">
+					<a href="/Myweb/index.html">
+						<img src="/Myweb/img/logo.png" alt="同城天下" title="同城天下" />
+					</a>						
+				</h1>
+			</div>
+			<div class="center0 center active">
+				<div class="center_title">密码重置</div>
+				<div class="center_state"></div>
+				<div class="center_liss">
+					<div class="c_l_wrong">
+						<p>请输入正确的手机号</p>
+					</div>
+					<div class="c_l_wrap c_l_user active">
+						<label for="">同城天下账号</label>
+						<input type="text" id="userName" placeholder="请输入您的手机号"/>
+					</div>
+					<div class="c_l_yzm">
+						<label for="">验证码</label>
+						<input type="text" id="yanZheng1"/>
+						<img src="" alt="" />
+						<div>
+							<span>看不清</span>
+							<span>换一张</span>
+						</div>
+					</div>
+					<div class="c_l_deng">
+						<label for=""></label>
+						<p>下一步</p>
+					</div>
+				</div>
+			</div>
+	<!--第二步-->
+			<div class="center1 center">
+				<div class="center_title">密码重置</div>
+				<div class="center1_state"></div>
+				<div class="center1_liss">
+					<div class="c1_liss_tate">
+						<p>请使用&nbsp;<span>157****2259</span>&nbsp;获取短信验证码，完成身份验证</p>
+					</div>
+					<div class="c1_liss_yzm">						
+						<input type="text" id="yanZheng2" placeholder="请输入短信验证码" disabled="disabled"/>
+						<span class="yanzhengma">发送验证码</span>
+					</div>
+					<div class="c1_liss_deng">
+						<div>下一步</div>
+						<span>返回上一页</span>
+					</div>
+				</div>
+			</div>
+	<!--第三步-->	
+			<div class="center2 center">
+				<div class="center_title">密码重置</div>
+				<div class="center2_state"></div>
+				<div class="center2_liss">
+					<div class="c2_liss_tate">
+						<p>您的信息已验证成功，请立即重置密码</p>
+					</div>
+					<div class="c2_liss_wrap c2_liss_pasd1">
+						<label for="">新密码</label>
+						<input type="text" id="passWord1" placeholder="请输入5-15个字符"/>
+						<span></span>
+					</div>
+					<div class="c2_liss_wrap c2_liss_pasd2">
+						<label for="">确认密码</label>
+						<input type="text" id="passWord2" placeholder="请再次输入新密码"/>
+						<span></span>
+					</div>
+					<div class="c2_liss_wrap">
+						<label for=""></label>
+						<div class="c2_liss_wrap_tijiao">确认提交</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				<p>&copy;&nbsp;2017&nbsp;徐州掌汇网络科技有限公司&nbsp;zhanghuitongcheng.com&nbsp;<a href="">苏ICP备15009587号-2</a></p>
+			</div>
+		</div>
+	</body>
+	<script src="/Myweb/js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+	<script src="/Myweb/js/reset.js" type="text/javascript" charset="utf-8"></script>
+</html>

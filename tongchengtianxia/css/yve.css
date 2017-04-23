@@ -1,0 +1,499 @@
+@charset "utf-8";
+
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #ccc;  
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #ccc;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+    color: #ccc;
+}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #ccc;
+}
+
+
+/*充值*/
+.zhezhao_chongzhi{
+	position: relative;
+	width: 560px;
+	height: 224px;
+	background: #fff;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin: -112px 0 0 -280px;
+	box-shadow: 0 0 20px 5px #666;
+	z-index: 11;
+	display: none;
+}
+.zhezhao_close{
+	position: absolute;
+	width: 17px;
+	height: 17px;
+	right: 5px;
+	top: 5px;
+	background:url(../img/tishi.png) -9px -43px;
+	cursor: pointer;
+}
+
+.zhezhao_chongzhi .chongzhi_fangshi{
+	overflow: hidden;
+	padding-top: 30px;
+}
+.zhezhao_chongzhi .chongzhi_fangshi>div{
+	width: 236px;
+	height: 56px;
+	border: 2px dashed #ccc;
+	float: left;
+	line-height:56px;
+	color: #ccc;
+}
+.zhezhao_chongzhi .chongzhi_fangshi div.active{
+	border:2px solid #f90;
+	color: #f90;
+}
+.zhezhao_chongzhi .chongzhi_fangshi div span{
+	margin: 14px 31px 0 22px;
+	width: 28px;
+	height:28px;
+	float: left;
+	background: url(/Myweb/img/yvebg.png) no-repeat -6px -157px;
+}
+.zhezhao_chongzhi .chongzhi_fangshi div.active span{
+	background-position: -48px -157px;
+}
+.zhezhao_chongzhi .chongzhi_fangshi .zhifubao{
+	margin:0 18px 0 30px;
+}
+.zhezhao_chongzhi .chongzhi_jine{
+ 	margin: 30px 0 0 50px;
+ 	color:#999;
+ 	font-size: 12px;
+ }
+.zhezhao_chongzhi .chongzhi_jine span input{
+	width: 126px;
+	height: 28px;
+	border: 1px solid #ccc;
+	outline: none;
+	margin: 0 5px;
+	text-indent: 10px;
+	color: #E65100;
+	font-size: 14px;
+}
+.zhezhao_chongzhi .chongzhi_jine button{
+	width: 100px;
+	height: 30px;
+	background: #f90;
+	color: #fff;
+	border: none;
+	outline: none;
+	margin-left: 30px;
+}
+.zhezhao_chongzhi .chongzhi_jine button:active{
+	background: #E65100;
+}
+.zhezhao_chongzhi .chongzhi_tishi{
+	margin:30px 0 0 50px;
+	color: #ccc;
+	font-size: 12px;
+}
+.zhezhao_chongzhi .chongzhi_tishi a{
+	color: #4BB358;
+}
+
+/*提现*/
+.zhezhao_tixian{
+	position: relative;
+	width: 584px;
+	height: 324px;
+	background: #fff;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin: -162px 0 0 -292px;
+	box-shadow: 0 0 20px 5px #666;
+	z-index: 11;
+	display: none;
+}
+.zhezhao_tixian .tixian_title{
+	width: 562px;
+	margin: 30px auto 0 auto;
+	border-bottom: 1px solid #ddd;
+	overflow: hidden;
+	font-size: 12px;
+}
+.zhezhao_tixian .tixian_title .p1{
+	float: left;
+	margin-left: 10px;
+}
+.zhezhao_tixian .tixian_title .p2{
+	float: right;
+	margin-right: 10px;
+}
+.zhezhao_tixian .tixian_title .p2 span{
+	color: #E65100;
+}
+.zhezhao_tixian .tixian_fangshi{
+	
+}
+.zhezhao_tixian .tixian_fangshi li{
+	margin: 8px auto 0 auto;
+	width: 450px;
+	font-size: 12px;
+	position: relative;
+	height: 50px;
+}
+.zhezhao_tixian .tixian_fangshi li div{
+	width:220px;
+	height:48px;
+	border:1px dashed #ccc ;
+	float: left;
+	line-height: 48px;
+	color: #ccc;
+}
+
+.zhezhao_tixian .tixian_fangshi li div span{
+	margin: 10px 20px 0 15px;
+	width: 28px;
+	height:28px;
+	float: left;
+	background: url(/Myweb/img/yvebg.png) no-repeat -6px -157px;
+}
+
+
+.zhezhao_tixian .tixian_fangshi li input{
+	width:220px;
+	height:48px;
+	line-height: 48px;
+	border:1px solid #FF9900 ;
+	outline: none;
+	margin-left:6px;
+	text-indent: 10px;
+	color: #FF9900;
+	font-size: 12px;
+	float: left;
+	display: none;
+}
+.zhezhao_tixian .tixian_fangshi li img{
+	width: 136px;
+	height: 13px;
+	position: absolute;
+	right: 20px;
+	bottom: -15px;
+	color: #999;
+	display: none;
+}
+.zhezhao_tixian .tixian_fangshi li.active div{
+	border:1px solid #FF9900;
+	color: #FF9900;
+}
+.zhezhao_tixian .tixian_fangshi li.active div span{
+	background-position: -48px -157px;
+}
+.zhezhao_tixian .tixian_fangshi li.active input{
+	display: block;
+}
+.zhezhao_tixian .tixian_fangshi li.active img{
+	display: block;
+}
+
+.zhezhao_tixian .tixian_jine{
+	margin: 30px 0 0 90px;
+ 	color:#999;
+ 	font-size: 12px;
+}
+
+.zhezhao_tixian .tixian_jine span input{
+	width: 128px;
+	height: 28px;
+	border: 1px solid #ccc;
+	outline: none;
+	margin: 0 5px;
+	text-indent: 10px;
+	color: #E65100;
+	font-size: 14px;
+}
+.zhezhao_tixian .tixian_jine button{
+	width: 100px;
+	height: 30px;
+	background: #f90;
+	color: #fff;
+	border: none;
+	outline: none;
+	margin-left: 30px;
+}
+.zhezhao_tixian .tixian_jine button:active{
+	background: #E65100;
+}
+
+/*充值提现成功*/
+.zhezhao_chenggong{
+	position: relative;
+	width: 400px;
+	height: 322px;
+	background: #fff;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin: -161px 0 0 -200px;
+	box-shadow: 0 0 20px 5px #666;
+	z-index: 11;
+	display: none;
+	text-align: center;
+}
+.zhezhao_chenggong img{
+	width: 122px;
+	height: 122px;
+	margin-top: 60px;
+}
+
+.zhezhao_chenggong p{
+	margin-top: 30px;
+	line-height:41px;
+	height: 41px;
+	text-align: center;
+	color: #666;
+}
+.zhezhao_chenggong p span{
+	display: inline-block;
+	width: 41px;
+	height: 41px;
+	background:url(../img/yvebg.png) no-repeat -165px -30px;
+	margin-right:10px;
+}
+.zhezhao_chenggong p a{
+	color: #f90;
+}
+
+ /*这是余额*/
+
+.dingdan .dingdan_right .yve .yve_top .top_title{
+	height:34px;
+	line-height: 34px;
+	text-indent: 10px;
+	margin-left:9px;
+}
+
+.dingdan .dingdan_right .yve .yve_top .top_summary{
+	width: 822px;
+	margin-left:9px;
+	background: #f7f7f7;
+	height: 100px;
+}
+.dingdan .dingdan_right .yve .yve_top .top_summary .mj{
+	width: 140px;
+	height: 72px;
+	margin-top: 14px;
+	float: left;
+	text-align: center;
+}
+.dingdan .dingdan_right .yve .yve_top .top_summary .money{
+	border-right: 1px solid #ddd;
+}
+.dingdan .dingdan_right .yve .yve_top .top_summary .mj p{
+	font-size: 12px;
+	line-height: 40px;
+}
+.dingdan .dingdan_right .yve .yve_top .top_summary .mj span{
+	font-size: 18px;
+	color: #e65100;
+}
+.dingdan .dingdan_right .yve .yve_top .top_summary .churu{
+	float: right;
+	margin: 10px 20px 0 0;
+}
+.dingdan .dingdan_right .yve .yve_top .top_summary .churu button{
+	width: 70px;
+	height: 30px;
+	background: #FF9900;
+	line-height: 30px;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+	border: none;
+	display: block;
+	outline: none;
+}
+.dingdan .dingdan_right .yve .yve_top .top_summary .churu button:active{
+	background: #E65100;
+}
+
+.dingdan .dingdan_right .yve .yve_top .top_summary .churu .chongzhi{
+	margin-top: 20px;
+}
+
+.dingdan .dingdan_right .yve .yve_btm{
+	border-top: 1px solid #EEEEEF;
+	margin-top: 30px;
+}
+.dingdan .dingdan_right .yve .yve_btm .btm_title{
+	height:34px;
+	line-height: 34px;
+	text-indent: 10px;
+	margin-left:9px;
+}
+.dingdan .dingdan_right .yve .yve_btm  .btm_paixu{
+	margin-left:9px;
+	text-indent:10px;
+	font-size: 12px;
+}
+
+.dingdan .dingdan_right .yve .yve_btm  .btm_paixu p{
+	height: 25px;
+	color: #999;
+}
+.dingdan .dingdan_right .yve .yve_btm  .btm_paixu p i{
+	margin: 0 5px;
+	padding: 2px 5px;
+	cursor: pointer;	
+	-moz-user-select:none;
+	-webkit-user-select:none;	
+	-ms-user-select:none;
+	-khtml-user-select:none;
+	user-select:none;
+}
+.dingdan .dingdan_right .yve .yve_btm .btm_paixu p i.active{
+		background: #F7F7F7;
+}
+
+.dingdan .dingdan_right .yve .yve_btm .btm_list{
+	width: 822px;
+	margin-left: 9px;
+}
+.dingdan .dingdan_right .yve .yve_btm .btm_list .list_title{
+	background: #f7f7f7;
+	height: 42px;
+	color: #666;
+	border-bottom: 1px solid #eeeeef;
+	font-size: 12px;
+}
+.dingdan .dingdan_right .yve .yve_btm .btm_list .list_title li{
+	float: left;
+	height: 42px;
+	line-height: 42px;
+}
+.dingdan .dingdan_right .yve .yve_btm .btm_list .list_title .time{
+	width: 120px;
+	text-indent: 10px;
+}
+.dingdan .dingdan_right .yve .yve_btm .btm_list .list_title .mc{
+	width:220px;
+	text-indent: 10px;
+}
+.dingdan .dingdan_right .yve .yve_btm .btm_list .list_title .jebg{
+	width:120px;
+	text-align: center;
+}
+.dingdan .dingdan_right .yve .yve_btm .btm_list .list_title .jfbg{
+	width:122px;
+	text-align: center;
+}
+.dingdan .dingdan_right .yve .yve_btm .btm_list .list_title .state{
+	width:100px ;
+	text-align: center;
+}
+.dingdan .dingdan_right .yve .yve_btm .btm_list .list_title .balance{
+	width:140px;
+	text-align: center;
+}
+.dingdan .dingdan_right .yve .yve_btm .btm_list .list_center{
+	background: #f7f7f7;
+	overflow: hidden;
+	font-size: 12px;
+}		
+.dingdan .dingdan_right .yve .yve_btm .btm_list .list_center .list_main{
+	background: #fff;
+	height: 80px;
+	margin-bottom: 8px;
+	line-height: 80px;
+}	
+.dingdan .dingdan_right .yve .yve_btm .btm_list .list_center .list_main>div{
+	float: left;
+}
+.dingdan .dingdan_right .yve .yve_btm .btm_list .list_center .list_main .time{
+	width: 120px;
+	text-indent: 10px;
+	margin-top: 18px;
+}
+.dingdan .dingdan_right .yve .yve_btm .btm_list .list_center .list_main .time .time_date{
+	color: #666;
+}
+.dingdan .dingdan_right .yve .yve_btm .btm_list .list_center .list_main .time .time_hour{
+	color: #999;
+}
+.dingdan .dingdan_right .yve .yve_btm .btm_list .list_center .list_main .mc{
+	width:220px;
+	text-indent: 10px;
+	margin-top: 7px;
+}
+.dingdan .dingdan_right .yve .yve_btm .btm_list .list_center .list_main .mc h5{
+	height: 22px;
+	color: #666;
+	font-weight: normal;
+	line-height: 22px;
+}
+.dingdan .dingdan_right .yve .yve_btm .btm_list .list_center .list_main .mc p{
+	color: #999;
+}
+
+.dingdan .dingdan_right .yve .yve_btm .btm_list .list_center .list_main .jebg{
+	width:120px;
+	text-align: center;
+	color:#4BB358;
+	margin-top: 29px;
+}
+.dingdan .dingdan_right .yve .yve_btm .btm_list .list_center .list_main .jebg.jian{
+	color:#E65100;
+}
+.dingdan .dingdan_right .yve .yve_btm .btm_list .list_center .list_main .jebg p i{
+	font-size: 14px;
+}
+
+.dingdan .dingdan_right .yve .yve_btm .btm_list .list_center .list_main .jfbg{
+	width:122px;
+	text-align: center;
+	color:#4BB358;
+	margin-top: 29px;
+}
+.dingdan .dingdan_right .yve .yve_btm .btm_list .list_center .list_main .jfbg.jian{
+	color:#E65100;
+}
+.dingdan .dingdan_right .yve .yve_btm .btm_list .list_center .list_main .jfbg p i{
+	font-size: 14px;
+}
+
+.dingdan .dingdan_right .yve .yve_btm .btm_list .list_center .list_main .state{
+	width:100px ;
+	text-align: center;
+	color:#666;
+}
+.dingdan .dingdan_right .yve .yve_btm .btm_list .list_center .list_main .balance{
+	width:140px;
+	text-align: center;
+	color:#666;
+	margin-top: 33px;
+}
+.dingdan .dingdan_right .yve .yve_btm .btm_list .list_center .list_main .balance p{
+	float: left;
+	width: 70px;
+	height:14px;
+	line-height: 14px;
+}
+.dingdan .dingdan_right .yve .yve_btm .btm_list .list_center .list_main .balance p.money{
+	width: 64px;
+	border-right: 1px solid #999;
+	padding-right: 5px;
+	text-align: right;
+}
+.dingdan .dingdan_right .yve .yve_btm .btm_list .list_center .list_main .balance p.jifen{
+	width: 65px;
+	padding-left: 5px;
+	text-align: left;
+}
+
+					

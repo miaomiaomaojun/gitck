@@ -1,0 +1,235 @@
+@charset "utf-8";
+
+.main{
+	margin-bottom: 60px;
+}
+.main .wrap h2{
+	font-size: 16px;
+	height: 60px;
+	color: #666;
+	border-top: 1px solid #eeeeef;
+	font-weight: normal;
+	line-height: 60px;
+	text-indent: 10px;
+}
+
+.main .wrap .main_top{
+	background: #f7f7f7;
+	
+}
+.main .wrap .main_top .top_title{
+	font-size: 12px;
+	margin: 0 10px;
+	height: 30px;
+	line-height: 30px;
+	color: #999;
+	border-bottom: 1px dashed #999;
+	border-top: 1px dashed #fff;
+}
+.main .wrap .main_top .top_title span{
+	color: #E65100;
+}
+
+
+.main .wrap .main_top .top_center{
+	border-bottom: 1px dashed #999;
+	border-top: 1px dashed #fff;
+	margin: 0 10px;
+}
+.main .wrap .main_top .top_center.jifen{
+	border-bottom:0;
+	overflow: hidden;
+}
+.main .wrap .main_top .top_center .dv1{
+	height: 61px;
+	margin: 0 25px;
+	line-height: 61px;
+	font-size: 18px;
+	color: #666;
+}
+.main .wrap .main_top .top_center .dv1 ul li{
+	display: none;
+}
+.main .wrap .main_top .top_center .dv1 ul li.active{
+	display: block;
+}
+.main .wrap .main_top .top_center .dv1 i{
+	background:url(/Myweb/img/tuikuanzhong.png) no-repeat;
+	padding: 4px 13px;
+
+}
+.main .wrap .main_top .top_center .dv1 i.success{
+	background:url(/Myweb/img/yvebg.png) no-repeat -87px -155px;
+}
+
+.main .wrap .main_top .top_center .dv1 span{
+	color: #E65100;
+}
+.main .wrap .main_top .top_center .dv2{
+	height: 21px;
+	margin: 0 25px;
+	width: 45px;
+	background:url(/Myweb/img/yvebg.png) no-repeat -131px -160px;
+}
+.main .wrap .main_top .top_center .dv3{
+	background: green;
+	height: 150px;
+	margin: 0 25px 30px 25px;
+	background:#fff;
+	overflow: hidden;
+}
+.main .wrap .main_top .top_center .dv3 .dv3_buzhou{
+	height: 40px;
+	margin:35px 0 0 97px;
+	width: 760px;
+}
+.main .wrap .main_top .top_center .dv3 .dv3_buzhou i{
+	float: left;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background:url(/Myweb/img/yvebg.png) no-repeat -5px -190px;
+}
+.main .wrap .main_top .top_center .dv3 .dv3_buzhou i.buzhou_2{
+	background-position:-60px -232px; ;
+}
+.main .wrap .main_top .top_center .dv3 .dv3_buzhou i.buzhou_3{
+	background-position:-115px -232px; ;
+}
+.main .wrap .main_top .top_center .dv3 .dv3_buzhou i.buzhou_4{
+	background-position:-169px -232px; ;
+}
+.main .wrap .main_top .top_center .dv3 .dv3_buzhou i.buzhou_2.active{
+	background-position:-60px -190px; ;
+}
+.main .wrap .main_top .top_center .dv3 .dv3_buzhou i.buzhou_3.active{
+	background-position:-115px -190px; ;
+}
+.main .wrap .main_top .top_center .dv3 .dv3_buzhou i.buzhou_4.active{
+	background-position:-169px -190px; ;
+}
+
+.main .wrap .main_top .top_center .dv3 .dv3_buzhou span{
+	float: left;
+	display: inline-block;
+	margin-top: 14px;
+	width: 200px;
+	height: 12px;
+	background:url(/Myweb/img/yvebg.png) no-repeat 1px -296px;
+}
+.main .wrap .main_top .top_center .dv3 .dv3_buzhou span.active{
+	float: left;
+	display: inline-block;
+	margin-top: 14px;
+	width: 200px;
+	height: 12px;
+	background:url(/Myweb/img/yvebg.png) no-repeat 1px -277px;
+}
+.main .wrap .main_top .top_center .dv3 .dv3_zhuangtai{
+	overflow: hidden;
+}
+.main .wrap .main_top .top_center .dv3 p{
+	height: 25px;
+	line-height: 28px;
+	float: left;
+	width: 238px;
+	color: #999;
+	text-align: center;
+	font-size: 12px;
+}
+.main .wrap .main_top .top_center .dv3 .dv3_zhuangtai p.active{
+	color: #f90;
+}
+
+/*底部*/
+.main .wrap .main_bottom{}
+
+.main .wrap .main_bottom dl{
+	border:1px solid #eeeeef;
+	color: #999;
+	font-size: 12px;
+	overflow: hidden;
+}
+.main .wrap .main_bottom dl dt{
+	background: #f7f7f7;
+	height: 30px;
+	line-height: 30px;
+}
+.main .wrap .main_bottom dl div{
+	float: left;
+	text-align: center;
+}
+.main .wrap .main_bottom dl div.dv1{
+	width: 312px;
+}
+.main .wrap .main_bottom dl div.dv2{
+	width: 170px;
+}
+.main .wrap .main_bottom dl div.dv3{
+	width: 220px;
+}
+.main .wrap .main_bottom dl div.dv3 p{
+	float:left;
+	height: 14px;
+	line-height: 14px;
+	width: 100px;
+	margin-top: 8px;
+}
+.main .wrap .main_bottom dl div.dv3 p.dv3_p1{
+	text-align: right;
+	padding-right: 9px;
+	border-right:1px solid #999;
+}
+.main .wrap .main_bottom dl div.dv3 p.dv3_p2{
+	text-align: left;
+	padding-left: 9px;
+	border-right:1px solid transparent;
+}
+.main .wrap .main_bottom dl div.dv4{
+	width: 160px;
+}
+.main .wrap .main_bottom dl div.dv5{
+	width: 160px;
+}
+
+.main .wrap .main_bottom dl dd{
+	
+}
+.main .wrap .main_bottom dl dd .dd_title{
+	height: 30px;
+	line-height: 30px;
+	text-indent: 10px;
+}
+.main .wrap .main_bottom dl dd .dd_content{
+	background: #f7f7f7;
+	height: 40px;
+	line-height:40px;
+}
+.main .wrap .main_bottom dl dd .dd_content div.dv1{
+	text-align: left;
+	text-indent: 10px;
+}
+.main .wrap .main_bottom dl dd .dd_content div.dv1 a{
+	margin-left: 10px;
+	color: #F2AA79;
+}
+.main .wrap .main_bottom dl dd .dd_content div.dv1 a b{
+	padding:0 5px;
+	background:url(/Myweb/img/yvebg.png) no-repeat -186px -161px;
+}
+.main .wrap .main_bottom dl dd .dd_content div.dv3 p{
+	color: #E65100;
+	font-size: 14px;
+	margin-top: 13px;
+	text-indent: 0;
+}
+.main .wrap .main_bottom dl dd .dd_foot{
+	background: #fff;
+	height: 30px;
+	float: right;
+}
+.main .wrap .main_bottom dl dd .dd_foot p{
+	height: 30px;
+	line-height: 30px;
+	padding-right: 10px;
+}

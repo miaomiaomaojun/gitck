@@ -1,0 +1,184 @@
+@charset "utf-8";
+
+
+ /*这是已评价订单*/
+
+.dingdan .dingdan_right .dingdan_right_list{
+	margin-left: 8px;
+	
+}
+.dingdan .dingdan_right .dingdan_right_list li{
+	background: #f7f7f7;
+	margin: 10px 8px 0 0;
+	overflow: hidden;
+}
+.dingdan .dingdan_right .dingdan_right_list li .allshow{
+	overflow: hidden;
+	position: relative;
+}
+
+.dingdan .dingdan_right .dingdan_right_list li .allshow .pic{
+	float: left;
+	padding: 10px;
+	width:80px;
+	height: 80px;
+}
+.dingdan .dingdan_right .dingdan_right_list li .allshow .pic img{
+	width: 80px;
+	height: 80px;
+}
+
+.dingdan .dingdan_right .dingdan_right_list li .allshow .instructions{
+	float: left;
+	padding-top:10px ;
+	width: 724px;
+}
+.dingdan .dingdan_right .dingdan_right_list li .allshow .instructions .del{
+	position:absolute;
+	right: 20px;
+	top: 10px;
+}
+.dingdan .dingdan_right .dingdan_right_list li .allshow .instructions .del span{
+	float: right;
+	color: #c8c9ca;
+	cursor: pointer;
+}
+.dingdan .dingdan_right .dingdan_right_list li .allshow .instructions .del span b{
+	padding-left: 12px;
+	background:url(/Myweb/img/dingdanbg.png) no-repeat 0 2px;
+}
+
+
+
+.dingdan .dingdan_right .dingdan_right_list li .allshow .instructions>p{
+	height: 27px;
+	font-size: 12px;
+}
+.dingdan .dingdan_right .dingdan_right_list li .allshow .instructions p.addjifen{
+	color: #9E9E9F;
+}
+
+.dingdan .dingdan_right .dingdan_right_list li .allshow .instructions div.manyidu{
+	color: #4BB358;
+	font-size: 12px;
+	height: 27px;
+}
+.dingdan .dingdan_right .dingdan_right_list li .allshow .instructions div.manyidu p{
+	float: left;
+	line-height: 27px;
+}
+.dingdan .dingdan_right .dingdan_right_list li .allshow .instructions div.manyidu i{
+	color: #4BB358;
+}
+
+.dingdan .dingdan_right .dingdan_right_list li .allshow .instructions div.manyidu .stars{
+	display: inline-block;
+	margin-left: 10px;
+}
+.dingdan .dingdan_right .dingdan_right_list li .allshow .instructions div.manyidu .stars dl{
+	float: left;
+	margin-left: 25px;
+}
+.dingdan .dingdan_right .dingdan_right_list li .allshow .instructions div.manyidu .stars dt{
+	float: left;
+	color: #888;
+	line-height: 27px;
+}
+.dingdan .dingdan_right .dingdan_right_list li .allshow .instructions div.manyidu .stars dd{
+	float: left;
+	line-height: 27px;
+}
+.dingdan .dingdan_right .dingdan_right_list li .allshow .instructions div.manyidu .stars dd i{
+	background: red;
+	padding:2px 8px;
+	margin-left: 8px;
+	background: url(/Myweb/img/dingdanbg.png) no-repeat -26px -22px;
+	cursor: pointer;
+}
+.dingdan .dingdan_right .dingdan_right_list li .allshow .instructions div.manyidu .stars dd i.active{
+	background-position: 0 -22px;
+}
+
+.dingdan .dingdan_right .dingdan_right_list li .allshow .instructions .content{
+	margin-top: 10px;
+}
+
+.dingdan .dingdan_right .dingdan_right_list li .allshow .instructions .content p{
+	font-size: 12px;
+	padding:5px 10px;
+	background: #fff;
+	width: 660px;
+	min-height: 44px;
+	border: 1px solid #DBDCDC;
+}
+.dingdan .dingdan_right .dingdan_right_list li .allshow .instructions .content .imgs{
+	padding-top: 10px;
+	padding-bottom:18px;
+}
+
+.dingdan .dingdan_right .dingdan_right_list li .allshow .instructions .content .imgs img{
+	width: 65px;
+	height: 65px;
+	margin-right:12px;
+	border:2px solid transparent;
+}
+.dingdan .dingdan_right .dingdan_right_list li .allshow .instructions .content .imgs img.active{
+	border-color:#ED6C00 ;
+}
+
+.dingdan .dingdan_right .dingdan_right_list li .allshow dd p a{
+	color: #3E3A39;
+}
+
+/*详情大图*/
+.dingdan .dingdan_right .dingdan_right_list li .detailed{
+	display: none;
+	background: #fff;
+	width: 682px;
+	margin-left:100px;
+	text-align: center;
+	position: relative;
+	margin-bottom:18px;
+	-moz-user-select:none;
+}
+.dingdan .dingdan_right .dingdan_right_list li .detailed.active{
+	display: block;
+}
+.dingdan .dingdan_right .dingdan_right_list li .detailed img{
+	max-width: 520px;
+}
+.dingdan .dingdan_right .dingdan_right_list li .detailed div{
+	position: absolute;
+	width: 234px;
+	top: 0;
+}
+.dingdan .dingdan_right .dingdan_right_list li .detailed div span{
+	position: absolute;
+	width: 45px;
+	height: 74px;
+	top: 50%;
+	margin-top: -37px;
+	background:url(/Myweb/img/yipingjia.png) no-repeat;
+	display: none;
+}
+.dingdan .dingdan_right .dingdan_right_list li .detailed div span.active{
+	display: block;
+}
+.dingdan .dingdan_right .dingdan_right_list li .detailed .detailed_left{	
+	left: 0;
+}
+.dingdan .dingdan_right .dingdan_right_list li .detailed .detailed_right{
+	right: 0;
+}
+.dingdan .dingdan_right .dingdan_right_list li .detailed .detailed_left span{
+	background-position: -5px 0px;
+	left: 15px;
+}
+.dingdan .dingdan_right .dingdan_right_list li .detailed .detailed_right span{
+	background-position: -55px 0px;
+	right: 15px;
+}
+
+.dingdan .dingdan_right .dingdan_right_list li .detailed div:hover span{
+	display: block;
+}

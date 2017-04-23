@@ -1,0 +1,227 @@
+@charset "utf-8";
+
+
+.dingdan .dingdan_right .dingdan_right_fenlei{
+	height: 26px;
+	line-height: 26px;
+	margin:10px 8px 0 8px;
+	background: #FCEDD9;
+	text-align: center;
+	font-size: 12px;
+}
+.dingdan .dingdan_right .dingdan_right_fenlei a{
+	color: #4BB358;
+}
+
+
+ /*这是待评价订单*/
+
+.dingdan .dingdan_right .dingdan_right_list{
+	margin-left: 8px;
+}
+.dingdan .dingdan_right .dingdan_right_list li{
+	background: #f7f7f7;
+	margin: 10px 8px 0 0;
+}
+.dingdan .dingdan_right .dingdan_right_list li .allshow{
+	overflow: hidden;
+}
+.dingdan .dingdan_right .dingdan_right_list li .allshow dt{
+	float: left;
+	padding: 10px;
+	width:80px;
+	height: 80px;
+}
+.dingdan .dingdan_right .dingdan_right_list li .allshow dt img{
+	width: 80px;
+	height: 80px;
+}
+
+.dingdan .dingdan_right .dingdan_right_list li .allshow dd p{
+	height: 50px;
+	line-height: 50px;
+	font-size: 12px;
+}
+.dingdan .dingdan_right .dingdan_right_list li .allshow dd p a{
+	color: #3E3A39;
+}
+.dingdan .dingdan_right .dingdan_right_list li .allshow dd p span{
+	color: #4BB358;
+}
+.dingdan .dingdan_right .dingdan_right_list li .allshow dd p i{
+	border: 1px solid #DBDCDC;
+	padding: 5px 8px;
+	margin: 0 5px;
+	color: #888;
+	cursor: pointer;
+}
+.dingdan .dingdan_right .dingdan_right_list li .allshow dd p i.active{
+	color: #ED6C00;
+	border-color: #F9dBd1;
+	background: #F9EBE1;
+}
+.dingdan .dingdan_right .dingdan_right_list li .allshow dd p b{
+	color: #C8C9CA;
+	font-size: 12px;
+	font-weight: normal;
+}
+.dingdan .dingdan_right .dingdan_right_list li .allshow dd .bianji{
+	float: right;
+	margin:20px 10px 0 0;
+	text-align: center;
+	cursor: pointer;
+}
+.dingdan .dingdan_right .dingdan_right_list li .allshow dd .bianji i{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background:url(/Myweb/img/dingdanbg.png) no-repeat 0 -45px; 
+}
+.dingdan .dingdan_right .dingdan_right_list li .allshow dd .bianji div{
+	height: 14px;
+	line-height: 14px;
+	color: #B4B4B5;
+}
+.dingdan .dingdan_right .dingdan_right_list li .detailed{
+	display: none;
+}
+.dingdan .dingdan_right .dingdan_right_list li .detailed.active{
+	display: block;
+}
+
+.dingdan .dingdan_right .dingdan_right_list li .detailed .stars{
+	
+}
+.dingdan .dingdan_right .dingdan_right_list li .detailed .stars dl{
+	height: 30px;
+	margin: 0 auto;
+	width: 180px;
+}
+.dingdan .dingdan_right .dingdan_right_list li .detailed .stars dt{
+	float: left;
+	color: #888;
+}
+.dingdan .dingdan_right .dingdan_right_list li .detailed .stars dd{
+	float: left;
+}
+.dingdan .dingdan_right .dingdan_right_list li .detailed .stars dd i{
+	background: red;
+	padding: 0 8px;
+	margin-left: 10px;
+	background: url(/Myweb/img/dingdanbg.png) no-repeat -26px -22px;
+	cursor: pointer;
+}
+.dingdan .dingdan_right .dingdan_right_list li .detailed .stars dd i.active{
+	background-position: 0 -22px;
+}
+
+.dingdan .dingdan_right .dingdan_right_list li .detailed .comments{
+	margin-left: 100px;
+}
+.dingdan .dingdan_right .dingdan_right_list li .detailed .comments p{
+	color: #C8C9CA;
+}
+
+.dingdan .dingdan_right .dingdan_right_list li .detailed .comments .commentes_wap{
+	border: 1px solid #DBDCDC;
+	height: 168px;
+	width: 684px;
+}
+
+.dingdan .dingdan_right .dingdan_right_list li .detailed .comments .commentes_wap .top{
+	background: #DBDCDC;
+	padding: 2px 10px;
+}
+.dingdan .dingdan_right .dingdan_right_list li .detailed .comments .commentes_wap .top p{
+	color: #F7F7F7;
+}
+
+.dingdan .dingdan_right .dingdan_right_list li .detailed .comments .commentes_wap .top p i{
+	background: #ED6C00;
+	color: #fff;
+	padding: 0 8px;
+	margin-right: 15px;
+}
+.dingdan .dingdan_right .dingdan_right_list li .detailed .comments .commentes_wap .top p span{
+	float: right;
+	
+}
+.dingdan .dingdan_right .dingdan_right_list li .detailed .comments .commentes_wap .top p span input{
+	float: left;
+	margin:5px 5px 0 0;
+}
+.dingdan .dingdan_right .dingdan_right_list li .detailed .comments .commentes_wap .top .tupian{
+	padding: 5px 0;
+	height: 50px;
+	line-height: 50px;
+}
+.dingdan .dingdan_right .dingdan_right_list li .detailed .comments .commentes_wap .top .tupian div{
+	width: 50px;
+	height:50px;
+	margin-right: 7px;
+	display:inline-block;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+.dingdan .dingdan_right .dingdan_right_list li .detailed .comments .commentes_wap .top .tupian img{
+	width: 50px;
+	height: 50px;
+	display:inline-block;
+	float:left;
+}
+.dingdan .dingdan_right .dingdan_right_list li .detailed .comments .commentes_wap .top .tupian input{
+	position: absolute;
+	left: 60px;
+	z-index: -1;
+}
+.dingdan .dingdan_right .dingdan_right_list li .detailed .comments .commentes_wap .top .tupian div i{
+	position: absolute;
+	right: 0;
+	top: 0;
+	background:yellow url(/Myweb/img/tishi.png)no-repeat -10px -44px;
+	color: #fff;
+	width: 16px;
+	height:16px;
+	border-radius: 100%;
+	font-size: 12px;
+	line-height: 12px;
+	text-align: center;
+	cursor: pointer;
+}
+.dingdan .dingdan_right .dingdan_right_list li .detailed .comments .commentes_wap .top .tupian span{
+	display:inline-block;
+	width: 50px;
+	height: 50px;
+	background: url(/Myweb/img/dingdanbg.png) no-repeat -59px -28px;
+	float: left;
+}
+.dingdan .dingdan_right .dingdan_right_list li .detailed .comments .commentes_wap .bottom{
+	background: #fff;
+	padding: 0 10px;
+}
+.dingdan .dingdan_right .dingdan_right_list li .detailed .comments .commentes_wap .bottom textarea{
+	width: 100%;
+	border: none;
+	overflow: hidden;
+	height: 50px;
+}
+.dingdan .dingdan_right .dingdan_right_list li .detailed .comments .commentes_wap .bottom p{
+	font-size: 12px;
+}
+.dingdan .dingdan_right .dingdan_right_list li .detailed .comments .commentes_wap .bottom p i.active{
+	color: red;
+}
+.dingdan .dingdan_right .dingdan_right_list li .detailed .tijiao{
+	margin:20px 40px 0 100px;
+	text-align: center;
+}
+.dingdan .dingdan_right .dingdan_right_list li .detailed .tijiao button{
+	width: 76px;
+	height: 30px;
+	background: #F79F1E;
+	color: #fff;
+	border: none;
+	margin-bottom: 30px;
+}
+

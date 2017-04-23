@@ -1,0 +1,191 @@
+@charset "utf-8";
+
+.dingdan .dingdan_right .tuikuan .tuikuan_fenlei{
+	height: 45px;
+	line-height: 45px;
+	padding:0 8px;
+}
+.dingdan .dingdan_right .tuikuan .tuikuan_fenlei select{
+	height: 25px;
+	border: 1px solid #eeeeef;
+	color: #999;
+}
+
+
+ /*这是退款订单*/
+
+.dingdan .dingdan_right .tuikuan .tuikuan_title{
+	width: 822px;
+	background: #f7f7f7;
+	height: 34px;
+	margin-left: 8px;
+}
+.dingdan .dingdan_right .tuikuan .tuikuan_title li{
+	float: left;
+	line-height: 34px;
+	text-align: center;
+}
+.dingdan .dingdan_right .tuikuan .tuikuan_title .li1{
+	width: 342px;
+}
+.dingdan .dingdan_right .tuikuan .tuikuan_title .li2{
+	width: 140px;
+}
+.dingdan .dingdan_right .tuikuan .tuikuan_title .li3{
+	width: 120px;
+}
+.dingdan .dingdan_right .tuikuan .tuikuan_title .li4{
+	width: 110px;
+}
+.dingdan .dingdan_right .tuikuan .tuikuan_title .li5{
+	width: 110px;
+}
+
+
+.dingdan .dingdan_right .tuikuan .tuikuan_list{
+	margin-left: 8px;
+	width: 822px;
+}
+.dingdan .dingdan_right .tuikuan .tuikuan_list li{
+	height: 133px;
+}
+.dingdan .dingdan_right .tuikuan .tuikuan_list li .list_title{
+	padding-top: 10px;
+	height: 23px;
+	font-size: 12px;
+}
+.dingdan .dingdan_right .tuikuan .tuikuan_list li .list_title p{
+	float: left;
+	color: #888;
+}
+.dingdan .dingdan_right .tuikuan .tuikuan_list li .list_title span{
+	float: right;
+	color: #c8c9ca;
+	cursor: pointer;
+}
+.dingdan .dingdan_right .tuikuan .tuikuan_list li .list_title span b{
+	padding-left: 12px;
+	background:url(/Myweb/img/dingdanbg.png) no-repeat 0 2px;
+}
+.dingdan .dingdan_right .tuikuan .tuikuan_list li .list_main{
+	height: 100px;
+	background: #f7f7f7;
+	width: 100%;
+}
+.dingdan .dingdan_right .tuikuan .tuikuan_list li .list_main>div{
+	float: left;
+	text-align: center;
+	font-size: 12px;
+}
+
+
+.dingdan .dingdan_right .tuikuan .tuikuan_list li .list_main .dv1{
+	width: 342px;
+}
+
+.dingdan .dingdan_right .tuikuan .tuikuan_list li .list_main .dv1 dl dt{
+	float: left;
+	padding: 10px;
+}
+.dingdan .dingdan_right .tuikuan .tuikuan_list li .list_main .dv1 dl dt img{
+	width: 80px;
+	height: 80px;
+}
+.dingdan .dingdan_right .tuikuan .tuikuan_list li .list_main .dv1 dl dd{
+	float: left;
+	height: 60px;
+	padding: 20px 0;
+	text-align: left;
+}
+.dingdan .dingdan_right .tuikuan .tuikuan_list li .list_main .dv1 dl dd p{
+	line-height: 20px;
+	height: 20px;
+}
+.dingdan .dingdan_right .tuikuan .tuikuan_list li .list_main .dv1 dl dd .ordername a{
+	color: #595757;
+}
+.dingdan .dingdan_right .tuikuan .tuikuan_list li .list_main .dv1 dl dd .ordername a i{
+	background: url(/Myweb/img/dingdanbg.png) no-repeat -35px 0;
+	padding:0 9px;
+}
+.dingdan .dingdan_right .tuikuan .tuikuan_list li .list_main .dv1 dl dd .usefullife{
+	color: #999;
+}
+
+.dingdan .dingdan_right .tuikuan .tuikuan_list li .list_main .dv1 dl dd .business a{
+	color: #F2AA79;
+}
+.dingdan .dingdan_right .tuikuan .tuikuan_list li .list_main .dv1 dl dd .business a b{
+	padding:0 5px;
+	background:url(/Myweb/img/yvebg.png) no-repeat -186px -161px;
+}
+
+
+.dingdan .dingdan_right .tuikuan .tuikuan_list li .list_main .dv2{
+	width: 140px;
+}
+.dingdan .dingdan_right .tuikuan .tuikuan_list li .list_main .dv2 p{
+	line-height: 100px;
+	font-size: 12px;
+	color: #666;
+}
+.dingdan .dingdan_right .tuikuan .tuikuan_list li .list_main .dv2 p span{
+	color: #E65100;
+}
+.dingdan .dingdan_right .tuikuan .tuikuan_list li .list_main .dv2 p i{
+	color: #E65100;
+	font-size: 14px;
+}
+.dingdan .dingdan_right .tuikuan .tuikuan_list li .list_main .dv2 p b{
+	color: #E65100;
+	font-weight: normal;
+	font-size: 14px;
+}
+
+.dingdan .dingdan_right .tuikuan .tuikuan_list li .list_main .dv3{
+	width: 120px;
+}
+.dingdan .dingdan_right .tuikuan .tuikuan_list li .list_main .dv3 p{
+	margin-top: 39px;
+	color:#666;
+	height: 18px;
+}
+.dingdan .dingdan_right .tuikuan .tuikuan_list li .list_main .dv3 span{
+	color: #999;
+}
+
+.dingdan .dingdan_right .tuikuan .tuikuan_list li .list_main .dv4{
+	width: 110px;
+	line-height: 100px;
+	color: #666;
+}
+
+.dingdan .dingdan_right .tuikuan .tuikuan_list li .list_main .dv5{
+	width: 110px;
+	line-height: 100px;
+	text-align: center;
+}
+.dingdan .dingdan_right .tuikuan .tuikuan_list li .list_main .dv5 a{
+	color: #4BB358;
+}
+.dingdan .dingdan_right .tuikuan .tuikuan_list li .list_main .dv5 button{
+	color: #666;
+	background: #ddd;
+	border: none;
+	width: 62px;
+	height: 22px;
+	outline: none;
+	cursor: pointer;
+	border: 1px solid #ddd;
+}
+.dingdan .dingdan_right .tuikuan .tuikuan_list li .list_main .dv5 button:hover{
+	color: #f90;
+	background:#fff;
+	border-color:#f90;
+}
+.dingdan .dingdan_right .tuikuan .tuikuan_list li .list_main .dv5 button:active{
+	color: #fff;
+	background:#f90;
+	border-color:#f90;
+}
+

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>登陆</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="关键词">
+		<meta name="author" content="易保易购" />
+		<meta name="description" content="详细介绍">				
+		<link rel="shortcut icon" href="/Myweb/img/favicon.ico"/>
+		<link href="/Myweb/css/rest.css" rel="stylesheet" type="text/css" />
+		<link href="/Myweb/css/login.css" rel="stylesheet" type="text/css" />
+		<script src="/Myweb/js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/Myweb/js/jquery-migrate-1.1.1.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="zhezhao"></div>		
+		<div class="zhezhao_bor">
+			<div class="zhezhao_in">
+				<img src="/Myweb/img/biglogo.png" alt="" />
+				<p>小同正在努力，请稍后……</p>
+			</div>			
+		</div>
+		<div class="header">
+			<div class="wrap">
+				<h1 class="logo">
+					<a href="/Myweb/index.html">
+						<img src="/Myweb/img/logo.png" alt="同城天下" title="同城天下" />
+					</a>				
+				</h1>
+			</div>
+		</div>
+		<div class="center">
+			<div class="wrap">
+				<div class="guang">
+					<div class="c_login">
+						<div class="c_l_tishi">
+							<p>用户名或密码有误，请重新输入，注意大小写</p>
+						</div>
+						<div class="c_l_wrap c_l_user active">
+							<label for="">用户名</label>
+							<input type="text" id="userName" placeholder="请输入您的手机号"/>
+						</div>
+						<div class="c_l_wrap c_l_psd">
+							<label for="">密码</label>
+							<input type="password" id="passWord" />
+						</div>
+						<div class="c_l_yzm">
+							<input type="text" id="yanZheng"/>
+							<img src="" alt="" />
+							<span>看不清换一张</span>
+						</div>
+						<div class="c_l_zid">
+							<b class=""></b>
+							<span for="">7天自动登陆</span>
+						</div>
+						<div class="c_l_deng">
+							<p>登陆</p>
+						</div>
+						<div class="c_l_link">
+							<a href="register.html" class="register">新用户注册</a>
+							<a href="reset.html" class="foget">忘记密码</a>
+						</div>
+						<div class="c_l_other">
+							<div class="left"></div>
+							<span>其他方式登陆</span>
+							<div class="left"></div>
+						</div>
+						<div class="c_l_others">
+							<a href=""><img src="/Myweb/img/weibo.png" alt="" /></a>
+							<a href=""><img src="/Myweb/img/qq.png" alt="" /></a>
+							<a href=""><img src="/Myweb/img/weixin.png" alt="" /></a>
+						</div>
+					</div>
+				</div>			
+			</div>
+		</div>
+		<div class="footer">
+			<div class="wrap">
+				<p class="f_p1">
+					<a href="">帮助中心</a>
+					<a href="">店主之家</a>
+					<a href="">支付方式</a>
+					<a href="">售后服务</a>
+					<a href="">客服中心</a>
+					<a href="">关于我们</a>
+				</p>
+				<p class="f_p2">
+					全国统一客服电话（免长途费）<span>400-884-3877</span>&nbsp;周一到周日8:00-22:00
+				</p>
+				<p class="f_p3">&copy;&nbsp;2017&nbsp;徐州掌汇网络科技有限公司&nbsp;zhanghuitongcheng.com&nbsp;<a href="">苏ICP备15009587号-2</a></p>
+			</div>
+		</div>		
+	</body>
+	<script src="/Myweb/js/login.js" type="text/javascript" charset="utf-8"></script>
+	
+</html>

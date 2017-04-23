@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+
+ /*这是收藏订单*/
+
+.dingdan .dingdan_right .shoucang .shoucang_title{
+	width: 822px;
+	background: #f7f7f7;
+	height: 42px;
+	margin:10px 0 0 8px;
+	border-bottom: 1px solid #ccc;
+}
+.dingdan .dingdan_right .shoucang .shoucang_title li{
+	float: left;
+	line-height: 42px;
+	text-align: center;
+}
+.dingdan .dingdan_right .shoucang .shoucang_title .li1{
+	width:400px;
+}
+.dingdan .dingdan_right .shoucang .shoucang_title .li2{
+	width: 280px;
+}
+.dingdan .dingdan_right .shoucang .shoucang_title .li3{
+	width: 142px;
+}
+
+
+
+.dingdan .dingdan_right .shoucang .shoucang_list{
+	margin-left: 8px;
+	width: 822px;
+	background: #F7F7F7;
+	overflow: hidden;
+}
+.dingdan .dingdan_right .shoucang .shoucang_list li{
+	background: #fff;
+	margin-bottom: 8px;
+	height: 94px;
+	padding: 16px 0;
+}
+.dingdan .dingdan_right .shoucang .shoucang_list li .list_main{
+	width: 100%;
+	height: 100%;
+}
+.dingdan .dingdan_right .shoucang .shoucang_list li .list_main>div{
+	float: left;
+	text-align: center;
+	font-size: 12px;
+}
+
+.dingdan .dingdan_right .shoucang .shoucang_list li .list_main .dv1{
+	width:400px;
+}
+.dingdan .dingdan_right .shoucang .shoucang_list li .list_main .dv1 dl{float:left;}
+.dingdan .dingdan_right .shoucang .shoucang_list li .list_main .dv1 dl dt{
+	float: left;
+	margin: 0 16px;
+}
+.dingdan .dingdan_right .shoucang .shoucang_list li .list_main .dv1 dl dt img{
+	width: 124px;
+	height:94px;
+}
+.dingdan .dingdan_right .shoucang .shoucang_list li .list_main .dv1 dl dd{
+	float: left;
+	text-align: left;
+}
+.dingdan .dingdan_right .shoucang .shoucang_list li .list_main .dv1 dl dd p{
+	margin-top:37px;
+	height: 20px;
+	line-height:20px;
+}
+.dingdan .dingdan_right .shoucang .shoucang_list li .list_main .dv1 dl dd .ordername a{
+	color: #666;
+}
+
+.dingdan .dingdan_right .shoucang .shoucang_list li .list_main .dv2{
+	width:280px;
+}
+.dingdan .dingdan_right .shoucang .shoucang_list li .list_main .dv2 p{
+	font-size: 12px;
+	color: #666;
+}
+.dingdan .dingdan_right .shoucang .shoucang_list li .list_main .dv2 .p1{
+	margin-top: 23px;
+}
+.dingdan .dingdan_right .shoucang .shoucang_list li .list_main .dv2 p del{
+	color: #888;
+}
+.dingdan .dingdan_right .shoucang .shoucang_list li .list_main .dv2 p i{
+	display: inline-block;
+	width: 15px;
+}
+.dingdan .dingdan_right .shoucang .shoucang_list li .list_main .dv2 p i.tongcheng{
+	background:url(/Myweb/img/dingdanbg.png) no-repeat -75px 2px;
+}
+.dingdan .dingdan_right .shoucang .shoucang_list li .list_main .dv2 p i.jifen{
+	background:url(/Myweb/img/dingdanbg.png) no-repeat -112px 2px;
+}
+
+
+.dingdan .dingdan_right .shoucang .shoucang_list li .list_main .dv3{
+	width: 142px;
+	line-height: 94px;
+}
+.dingdan .dingdan_right .shoucang .shoucang_list li .list_main .dv3 a{
+	background: #f90;
+	color: #fff;
+	padding: 5px 10px;
+	border-radius: 4px;
+	margin-right: 10px;
+}
+.dingdan .dingdan_right .shoucang .shoucang_list li .list_main .dv3 span{
+	color: #3C90D6;
+	cursor:pointer;
+}
+
+.dingdan .dingdan_right .shoucang .shoucang_quxiao{
+	margin-left: 8px;
+	width: 822px;
+}
+.dingdan .dingdan_right .shoucang .shoucang_quxiao span{
+	float: right;
+	font-size: 12px;
+	color: #3C90D6;
+	line-height:30px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+

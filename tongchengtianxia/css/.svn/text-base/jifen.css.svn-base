@@ -1,0 +1,209 @@
+@charset "utf-8";
+
+ /*这是余额*/
+
+.dingdan .dingdan_right .jifen .jifen_head{
+	border: 1px solid #ccc;
+	width: 820px;
+	height: 128px;
+	margin: 10px auto 0 auto;
+}
+	
+.dingdan .dingdan_right .jifen .jifen_head .head_top{
+	height: 48px;
+	background: #f7f7f7;
+}	
+.dingdan .dingdan_right .jifen .jifen_head .head_top p{
+	float: left;
+	font-size: 16px;
+	line-height: 48px;
+	text-indent: 20px;
+	color: #666;
+}
+.dingdan .dingdan_right .jifen .jifen_head .head_top p i{
+	color: #E65100;
+}
+.dingdan .dingdan_right .jifen .jifen_head .head_top div{
+	float: right;
+	font-size: 12px;
+	color: #999;
+	margin: 6px 10px 0 0;
+}
+.dingdan .dingdan_right .jifen .jifen_head .head_top div span{
+	display: block;
+}
+.dingdan .dingdan_right .jifen .jifen_head .head_top div span a{
+	color: #3C90D6;
+}
+
+.dingdan .dingdan_right .jifen .jifen_head .head_bottom{
+	height: 80px;
+	background: #fff;
+}	
+
+.dingdan .dingdan_right .jifen .jifen_head .head_bottom .head_bottom_left{
+	float: left;
+	width: 160px;
+	border-right: 1px solid #ccc;
+	height: 54px;
+	margin-top: 13px;
+	overflow: hidden;
+}
+
+.dingdan .dingdan_right .jifen .jifen_head .head_bottom p{
+	text-align: center;
+	height:33px;
+	line-height: 17px;
+	color: #666;
+}
+.dingdan .dingdan_right .jifen .jifen_head .head_bottom p i{
+	font-size: 16px;
+	color: #E65100;
+}
+.dingdan .dingdan_right .jifen .jifen_head .head_bottom .head_bottom_right{
+	float: left;
+	width: 160px;
+	height: 54px;
+	margin-top: 13px;
+	overflow: hidden;
+}
+
+.dingdan .dingdan_right .jifen .jifen_fenlei{
+	height: 33px;
+	width: 822px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.dingdan .dingdan_right .jifen .jifen_fenlei p{
+	float: left;
+	text-indent: 10px;
+}
+
+.dingdan .dingdan_right .jifen .jifen_fenlei select{
+	float: right;
+	height: 25px;
+	border: 1px solid #eeeeef;
+	color: #999;
+	width:84px;
+}
+.dingdan .dingdan_right .jifen .jifen_content{
+	height: 42px;
+	width: 822px;
+	margin: 0 auto;
+	border-bottom: 1px solid #CCC;
+	background: #f7f7f7;
+	font-size: 12px;
+}
+.dingdan .dingdan_right .jifen .jifen_content div{
+	float: left;
+	text-align: center;
+	color: #999;
+	line-height: 42px;
+}
+.dingdan .dingdan_right .jifen .jifen_content div.dv1{
+	width: 302px;
+}
+.dingdan .dingdan_right .jifen .jifen_content div.dv2{
+	width: 150px;
+}
+.dingdan .dingdan_right .jifen .jifen_content div.dv3{
+	width: 190px;
+}
+.dingdan .dingdan_right .jifen .jifen_content div.dv4{
+	width: 170px;
+}
+
+
+.dingdan .dingdan_right .jifen .jifen_list{
+	width: 822px;
+	margin: 0 auto;
+	background: #f7f7f7;
+	overflow: hidden;
+}
+.dingdan .dingdan_right .jifen .jifen_list .list_main{
+	height: 90px;
+	margin-bottom: 8px;
+	background: #fff;
+	position: relative;
+}
+.dingdan .dingdan_right .jifen .jifen_list .list_main .wellexpire{
+	width:58px;
+	height: 51px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(/Myweb/img/jifen.png) no-repeat -8px -134px;
+	display: none;
+}
+.dingdan .dingdan_right .jifen .jifen_list .list_main .wellexpire.active{
+	display: block;
+}
+.dingdan .dingdan_right .jifen .jifen_list .list_main div{
+	float: left;
+	font-size: 12px;
+}
+
+.dingdan .dingdan_right .jifen .jifen_list .list_main div.dv1{
+	width: 302px;
+}
+.dingdan .dingdan_right .jifen .jifen_list .list_main div.dv1 span{
+	width: 61px;
+	height: 60px;
+	float: left;
+	margin: 15px 10px 15px 15px;
+	background:url(/Myweb/img/jifen.png) no-repeat -8px -7px;
+}
+.dingdan .dingdan_right .jifen .jifen_list .list_main div.dv1 span.huodong{
+	background-position: -73px -7px;
+}
+.dingdan .dingdan_right .jifen .jifen_list .list_main div.dv1 span.huodongguoqi{
+	background-position: -73px -72px;
+}
+.dingdan .dingdan_right .jifen .jifen_list .list_main div.dv1 span.tongyongguoqi{
+	background-position: -8px -72px;
+}
+.dingdan .dingdan_right .jifen .jifen_list .list_main div.dv1 .p1{
+	margin-top: 15px;
+	line-height: 16px;
+	color: #666;
+	height: 32px;
+}
+.dingdan .dingdan_right .jifen .jifen_list .list_main div.dv1 .p2{
+	margin-top: 8px;
+	color: #999;
+}
+.dingdan .dingdan_right .jifen .jifen_list .list_main div.dv2{
+	width: 150px;
+	padding-top: 21px;
+}
+.dingdan .dingdan_right .jifen .jifen_list .list_main div.dv2 p{
+	text-align: center;
+	height: 16px;
+	line-height: 16px;
+	color: #999;
+}
+
+.dingdan .dingdan_right .jifen .jifen_list .list_main div.dv3{
+	width: 190px;
+	line-height: 90px;
+	color: #666;
+	text-align: center;
+}
+.dingdan .dingdan_right .jifen .jifen_list .list_main div.dv3 span{
+	color:#E65100;
+	font-size: 16px;
+}
+.dingdan .dingdan_right .jifen .jifen_list .list_main div.dv3 span.jian{
+	color: #4BB358;
+}
+
+.dingdan .dingdan_right .jifen .jifen_list .list_main div.dv4{
+	width: 170px;
+}
+
+.dingdan .dingdan_right .jifen .jifen_list .list_main div.dv4 p{
+	color: #666;
+	margin-top: 20px;
+	text-align: center;
+}

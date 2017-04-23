@@ -1,0 +1,211 @@
+@charset "utf-8";
+
+body{
+	background:#fefafa url(/Myweb/img/bg.jpg) no-repeat top center;
+}
+
+
+.inner{
+	width: 1006px;
+	margin: 0 auto;
+}
+
+.inner .wrap{
+	width:1002px;
+	border: 2px solid #fff;
+	margin-top:154px;
+}
+.inner .wrap .center{
+	overflow: hidden;
+	width:988px;
+	margin: 7px;
+	background: #fff;
+	height: 500px;
+}
+.inner .wrap .center .c_header{
+	overflow: hidden;
+}
+
+.inner .wrap .center .c_header .logo{
+	margin:20px 0 0 44px;
+	float: left;
+}
+.inner .wrap .center .c_header .logo a img{
+	height: 48px;
+}
+
+.inner .wrap .center .c_header .login{
+	float: right;
+	margin:50px 35px 0 0;
+}
+.inner .wrap .center .c_header .login a{
+	display: inline-block;
+	width:42px;
+	height: 20px;
+	border: 1px solid #eb6100;
+	color: #fff;
+	background: url(/Myweb/img/btn1.png) repeat-x;
+	text-align: center;
+	line-height: 20px;
+}
+
+/*注册主体框*/
+.inner .wrap .center .c_main{
+	margin:24px auto;
+	width: 580px;
+}
+
+.inner .wrap .center .c_main .forms{
+	margin-bottom: 10px;
+	overflow: hidden;
+
+}
+.inner .wrap .center .c_main .forms label{
+	height: 34px;
+	float: left;
+	display: inline-block;
+	width: 148px;
+	text-align: right;
+	font-size: 16px;
+	margin-right: 5px;
+	line-height: 34px;
+}
+.inner .wrap .center .c_main .forms input{
+	border: 1px solid #999999;
+	float: left;
+	line-height: 32px;
+	height: 32px;
+	width: 250px;
+	text-indent: 10px;
+}
+
+/*验证提示信息*/
+.inner .wrap .center .c_main .forms .f_tip{
+	float: left;
+	display: inline-block;
+	margin-left: 5px;
+	height: 34px;
+	line-height: 34px;
+}
+.inner .wrap .center .c_main .forms .f_tip i{
+	float: left;
+	display: none;
+	width: 34px;
+	height: 34px;
+	background: url(/Myweb/img/tishi.png) no-repeat left top;
+}
+
+.inner .wrap .center .c_main .forms .f_tip .error{
+	display: inline-block;
+	background: url(/Myweb/img/tishi.png) no-repeat left bottom;
+}
+.inner .wrap .center .c_main .forms .f_tip .ok{
+	display: inline-block;
+	background: url(/Myweb/img/tishi.png) no-repeat left top;
+}
+
+.inner .wrap .center .c_main .forms .f_tip span{
+	float: left;
+	display: inline-block;
+	height: 34px;
+	color:#898989;
+}
+
+
+.inner .wrap .center .c_main .forms.yanzheng input{
+	width: 140px;
+	margin-right: 5px;	
+}
+.inner .wrap .center .c_main .forms.yanzheng .yanzhengma{
+	float: left;
+	height: 30px;
+	width: 105px;
+	display: inline-block;
+	background: #eee;
+	text-align: center;
+	line-height: 30px;
+	margin-top: 2px;
+	cursor: pointer;
+}
+.inner .wrap .center .c_main .forms.yanzheng .yanzhengma.disabel{
+	color:#898989;
+	background: #efefef;
+}
+
+.inner .wrap .center .c_main .forms.mima .qiangdu{
+	float: left;
+}
+.inner .wrap .center .c_main .forms.mima .qiangdu label{
+	height: 20px;
+}
+.inner .wrap .center .c_main .forms.mima .qiangdu div{
+	width: 254px;
+	margin-top: 2px;
+	display: inline-block;
+}
+.inner .wrap .center .c_main .forms.mima .qiangdu div span{
+	line-height: 20px;
+	height: 20px;
+	float: left;
+	display: inline-block;
+	margin: 0;
+	text-align: center;
+	width: 33%;
+	background: #eee;
+	color: #BBB;
+	font-size: 12px;
+}
+
+.inner .wrap .center .c_main .forms.mima .qiangdu div .mg1{
+	margin: 0 1px;
+}
+
+.inner .wrap .center .c_main .forms.mima .qiangdu .ruo .span1{
+	background: red;
+	color: #fff;
+}
+.inner .wrap .center .c_main .forms.mima .qiangdu .zhong .span1{
+	background: orange;
+	color:orange;
+}
+.inner .wrap .center .c_main .forms.mima .qiangdu .zhong .span2{
+	background: orange;
+	color: #fff;
+}
+.inner .wrap .center .c_main .forms.mima .qiangdu .qiang .span1{
+	background: green;
+	color: green;
+}
+.inner .wrap .center .c_main .forms.mima .qiangdu .qiang .span2{
+	background: green;
+	color: green;
+}
+.inner .wrap .center .c_main .forms.mima .qiangdu .qiang .span3{
+	background: green;
+	color: #fff;
+}
+
+.inner .wrap .center .c_main .forms button{
+	width: 254px;
+	height: 34px;
+	border:1px solid #eb6100;
+	background: url(/Myweb/img/btn2.png) repeat-x;
+	color: #fff;
+	font-size: 16px;
+	outline: none;
+	cursor: pointer;
+}
+.inner .wrap .center .c_main .forms a{
+	color: #de5f0f;
+}
+
+.inner .footer{
+	margin-top: 40px;
+}
+.inner .footer p{
+	text-align: center;
+	color: #8a8989;
+}
+.inner .footer p a{
+	color: #1169ab;
+}

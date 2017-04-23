@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>同城天下-商家详情</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="关键词">
+		<meta name="author" content="易保易购" />
+		<meta name="description" content="详细介绍">
+		<link rel="shortcut icon" href="/Myweb/img/favicon.ico" />
+		<link rel="stylesheet" href="/Myweb/css/jPages.css" />
+		<link href="/Myweb/css/pictureview.css" rel="stylesheet" type="text/css" />
+		<link href="/Myweb/css/rest.css" rel="stylesheet" type="text/css" />
+		<link href="/Myweb/css/index_hf.css" rel="stylesheet" type="text/css" />
+		<link href="/Myweb/css/bussinessdetail.css" rel="stylesheet" type="text/css" />
+		<style>
+			.sc {
+				float: left;
+				font-size: 14px;
+				margin-left: 10px;
+				width: 66px;
+				height: 22px!important;
+				border-radius: 4px;
+				border: 1px #F29518 solid;
+				background: none;
+				margin-top: 4px;
+				background: url(../img/detailmenu.png) no-repeat 4px -639px;
+				display: inline-block;
+			}
+			
+			.ad {
+				float: left;
+				width: 25px;
+				height: 25px;
+				display: inline-block;
+				background: url(../img/detailmenu.png) no-repeat 3px -4px;
+			}
+			
+			.dt {
+				width: 25px;
+				height: 25px;
+				display: inline-block;
+				background: url(../img/detailmenu.png) no-repeat -3px -320px;
+				margin-left: 10px;
+				cursor: pointer;
+			}
+			
+			.dh {
+				width: 25px;
+				height: 25px;
+				display: inline-block;
+				background: url(../img/detailmenu.png) no-repeat 3px -41px;
+			}
+			
+			.sj {
+				width: 25px;
+				height: 25px;
+				display: inline-block;
+				background: url(../img/detailmenu.png) no-repeat 3px -85px;
+			}
+			
+			.bz {
+				width: 25px;
+				height: 25px;
+				display: inline-block;
+				background: url(../img/detailmenu.png) no-repeat 2px -125px;
+			}
+			
+			.bussinesspic dd i {
+				padding: 0 10px;
+				background: url(../img/detailmenu.png)no-repeat 2px -543px;
+			}
+			
+			.content {
+				
+			}
+			
+			.content .imgs {
+				padding-top: 10px;
+				padding-bottom: 18px;
+				overflow: hidden;
+			}
+			
+			.content .imgs img {
+				width: 116px;
+				height: 116px;
+				margin-left: 15px;
+				border: 2px solid transparent;
+				float: left;
+			}
+			
+			.content .imgs img.margin_l0 {
+				margin-left: 0;
+			}
+			
+			.content .imgs img.active {
+				border-color: #ED6C00;
+			}
+			/*详情大图*/
+			
+			.detailed {
+				display: none;
+				
+				width: 673px;
+				text-align: center;
+				position: relative;
+				margin-bottom: 18px;
+				-moz-user-select: none;
+			}
+			
+			.detailed.active {
+				display: block;
+			}
+			
+			.detailed img {
+				max-width: 513px;
+				height: 342px;
+			}
+			
+			.detailed div {
+				position: absolute;
+				width: 234px;
+				top: 0;
+			}
+			
+			.detailed div span {
+				position: absolute;
+				width: 45px;
+				height: 74px;
+				top: 50%;
+				margin-top: -37px;
+				background: url(/Myweb/img/yipingjia.png) no-repeat;
+				display: none;
+			}
+			
+			.detailed div span.active {
+				display: block;
+			}
+			
+			.detailed_left {
+				left: 0;
+			}
+			
+			.detailed .detailed_right {
+				right: 0;
+			}
+			
+			.detailed .detailed_left span {
+				background-position: -5px 0px;
+				left: 15px;
+			}
+			
+			.detailed .detailed_right span {
+				background-position: -55px 0px;
+				right: 15px;
+			}
+			.map_viewer {
+				border: 2px #b5b5b6 solid;
+				background: #FFFFFF;
+				width: 812px;
+				height: 558px;
+				position: fixed;
+				margin: -279px 0 0 -406px;
+				top: 50%;
+				left: 50%;
+				display: none;
+				
+			}
+			.map_viewer .mappic{
+				width: 738px;
+				height: 420px;
+				background-color: #efefef;
+				margin:  0 auto;
+				margin-top: 80px;
+			}
+		</style>
+
+		<body>
+			<!--头部-->
+			<div class="header">
+				<div class="wrap">
+					<div class="h_left">
+						<ul>
+							<li>
+								<a href="" class="bfpf0 h_link">同城天下保险</a>
+							</li>
+							<li>
+								<a href="" class="h_link">我的订单</a>
+							</li>
+							<li>
+								<a href="/Myweb/mytongcheng/tuangoudingdan.html" class="h_link">我的同城天下<i class="h_link_d"></i></a>
+								<dl id="" class="dls">
+									<dt><span class="jiantou jiantou_up"></span></dt>
+									<dd>
+										<a href="">我的订单</a>
+									</dd>
+									<dd>
+										<a href="">我的评价</a>
+									</dd>
+									<dd>
+										<a href="">我的收藏</a>
+									</dd>
+									<dd>
+										<a href="">抵用券</a>
+									</dd>
+									<dd>
+										<a href="">我的余额</a>
+									</dd>
+									<dd class="border_b0">
+										<a href="">账户设置</a>
+									</dd>
+								</dl>
+							</li>
+							<li>
+								<a href="" class="h_link">我是商家<i class="h_link_d"></i></a>
+								<dl id="" class="dls">
+									<dt><span class="jiantou jiantou_up"></span></dt>
+									<dd>
+										<a href="">商家中心</a>
+									</dd>
+									<dd class="border_b0">
+										<a href="">我想合作</a>
+									</dd>
+								</dl>
+							</li>
+							<li>
+								<a href="" class="h_link">联系客服<i class="h_link_d"></i></a>
+								<dl id="" class="dls">
+									<dt><span class="jiantou jiantou_up"></span></dt>
+									<dd>
+										<a href="">帮助中心</a>
+									</dd>
+									<dd>
+										<a href="">在线客服</a>
+									</dd>
+									<dd>
+										<a href="">电话客服</a>
+									</dd>
+									<dd class="border_b0">
+										<a href="">商务合作</a>
+									</dd>
+								</dl>
+							</li>
+						</ul>
+					</div>
+					<div class="h_right">
+						<ul>
+							<li>
+								<a class="bfpf0 h_link">徐州</a>
+							</li>
+							<li>
+								<a class="h_link">切换城市<i class="h_link_d"></i></a>
+								<dl id="" class="dls">
+									<dt><span class="jiantou jiantou_up"></span></dt>
+									<dd>
+										<p>热门城市</p>
+									</dd>
+									<dd><span>北京</span><span>上海</span><span>广州</span><span>深圳</span><span>天津</span><span>杭州</span><span>西安</span><span>成都</span><span>郑州</span><span>厦门</span><span>青岛</span><span>太原</span><span>重庆</span><span>武汉</span><span>南京</span><span>沈阳</span><span>济南</span><span>哈尔滨</span></dd>
+									<dd>
+										<a href="" class="morecity">更多城市<i></i></a>
+									</dd>
+								</dl>
+							</li>
+							<li class="willlogin active">
+								<a href="/Myweb/register/login.html" class="h_link">登陆</a>
+							</li>
+							<li class="willlogin active">
+								<a href="/Myweb/register/register.html" class="h_link">注册</a>
+							</li>
+							<li class="loginer">
+								<a class="h_link"><i class="yonghu">1</i> <span>退出</span></a>
+							</li>
+							<li>
+								<a class="pr0 h_link">手机同城天下</a>
+								<dl id="" class="dls erweima">
+									<dt><span class="jiantou jiantou_up"></span></dt>
+									<dd><img src="/Myweb/img/erweima.png" /></dd>
+								</dl>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!--logo和搜索-->
+			<div style="width: 100%;height: 0;clear: both;"></div>
+			<div class="logo">
+				<div class="wrap">
+					<h1 class="logo_left">
+					<a href="/Myweb/index.html">
+						<img src="/Myweb/img/logo.png" alt="同城天下" title="同城天下" />
+					</a>				
+				</h1>
+					<ul class="logo_center">
+						<li>
+							<a href="" class="active">美食</a>
+						</li>
+						<li>
+							<a href="">品牌商家</a>
+						</li>
+						<li>
+							<a href="">外卖</a>
+						</li>
+						<li>
+							<a href="">酒店</a>
+						</li>
+						<li>
+							<a href="">丽人</a>
+						</li>
+						<li>
+							<a href="">购物</a>
+						</li>
+						<li>
+							<a href="">今日新单</a>
+						</li>
+					</ul>
+					<div class="logo_right">
+						<input type="text" placeholder="搜索商家、商品或商圈" />
+						<div>
+							<span></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div style="width: 100%;height: 0;clear: both;"></div>
+			<div class="column_contain">
+				<div class="column">
+					<ul class="column_list">
+						<li>
+							<div class="shouye">首页</div>
+							<div class="arrowright"></div>
+						</li>
+						<li>
+							<div class="shouye">美食</div>
+							<div class="arrowright"></div>
+
+						</li>
+						<li>
+							<div class="shouye">自助餐</div>
+							<div class="arrowright"></div>
+
+						</li>
+						<li>
+							<div class="shouye">鼓楼区</div>
+							<div class="arrowright"></div>
+
+						</li>
+						<li>
+							<div class="shouye">1818美食广场</div>
+							<div class="arrowright"></div>
+
+						</li>
+						<li>
+							<div class="shouye">巴厘岛自助海鲜</div>
+
+						</li>
+
+					</ul>
+					<!--隐藏盒子-->
+
+				</div>
+			</div>
+			<!--团购-->
+			<div class="tuangou">
+				<div class="tuangou_detail">
+					<div class="tuangou_detail_box">
+						<ul>
+							<li>
+								<p style="float: left;line-height: 33px;">巴厘岛海鲜自助</p>
+								<span class="sc">
+								</span>
+							</li>
+							<li><span class="ad">&nbsp;</span><span>鼓楼区1818美食广场1楼澳门豆捞隔壁</span><span class="dt" id="map"></span></li>
+							<li><span class="dh"></span><span>0516-87662877</span></li>
+							<li><span class="sj"></span><span>11:00-14:00,17:00-21:00</span></li>
+							<li><span class="bz"></span><span>支持WIFI 停车位收费标准：凭1818停车场磁卡换取两小时免费</span></li>
+						</ul>
+						<dl class="bussinesspic">
+							<dt></dt>
+							<dd id="seemore" style="cursor:pointer">查看全部图片</dd>
+							<dd><i>&nbsp;</i><i>&nbsp;</i><i>&nbsp;</i><i>&nbsp;</i><i>&nbsp;</i><span>5</span><span>星</span></dd>
+						</dl>
+					</div>
+				</div>
+				<div class="tuangou_title">
+					<p>本店团购</p>
+				</div>
+				<!--团购列表-->
+				<div class="tuangou_list">
+					<ul>
+						<li>
+							<div class="tuangou_listpic">
+							</div>
+							<div class="tuangou_listsm">
+								<p class="til">单人自助午餐1/单人自助午餐单人自助午餐1/单人自助午餐..</p>
+								<p><span>截止日期</span><span>2017.04.16</span></p>
+								<p><span>已售</span><span>1024</span></p>
+							</div>
+							<div class="price" style="">
+								<p><span class="price_pic1"></span><span class="mino">￥</span><span class="bigo">500</span><span class="mino">+</span><span class="bigo">200</span><span class="mino">积分</span></p>
+								<p><span class="price_pic2"></span><span class="minh">￥</span><span class="bigh">500</span><span class="minh">送</span><span class="bigh">200</span><span class="minh">积分</span></p>
+								<p><span class="price_pic3"></span><span class="down">￥100</span></p>
+							</div>
+							<div class="ljqg" style="width: 78px;height: 30px;background-color:#F29518;border-radius: 5px;float: left;margin-top: 65px;color: #FFFFFF;font-size: 14px;text-align: center;line-height:28px ;">
+								立即抢购
+							</div>
+						</li>
+						<li>
+							<div class="tuangou_listpic">
+								111
+							</div>
+							<div class="tuangou_listsm">
+								<p class="til">单人自助午餐1/单人自助午餐单人自助午餐1/单人自助午餐..</p>
+								<p><span>截止日期</span><span>2017.04.16</span></p>
+								<p><span>已售</span><span>1024</span></p>
+							</div>
+							<div class="price" style="">
+								<p><span class="price_pic1"></span><span class="mino">￥</span><span class="bigo">500</span><span class="mino">+</span><span class="bigo">200</span><span class="mino">积分</span></p>
+								<p><span class="price_pic2"></span><span class="minh">￥</span><span class="bigh">500</span><span class="minh">送</span><span class="bigh">200</span><span class="minh">积分</span></p>
+								<p><span class="price_pic3"></span><span class="down" style="">￥100</span></p>
+							</div>
+							<div class="ljqg" style="width: 78px;height: 30px;background-color:#F29518;border-radius: 5px;float: left;margin-top: 65px;color: #FFFFFF;font-size: 14px;text-align: center;line-height:28px ;">
+								立即抢购
+							</div>
+						</li>
+						<li>
+							<div class="tuangou_listpic">
+								111
+							</div>
+							<div class="tuangou_listsm">
+								<p class="til">单人自助午餐1/单人自助午餐单人自助午餐1/单人自助午餐..</p>
+								<p><span>截止日期</span><span>2017.04.16</span></p>
+								<p><span>已售</span><span>1024</span></p>
+
+							</div>
+							<div class="price">
+								<p><span class="price_pic1">&nbsp;</span><span class="mino">￥</span><span class="bigo">500</span><span class="mino">+</span><span class="bigo">200</span><span class="mino">积分</span></p>
+								<p><span class="price_pic2">&nbsp;</span><span class="minh">￥</span><span class="bigh">500</span><span class="minh">送</span><span class="bigh">200</span><span class="minh">积分</span></p>
+								<p><span class="price_pic3">&nbsp;</span><span class="down" style="">￥100</span></p>
+							</div>
+
+							<div class="ljqg">
+								立即抢购
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="tuangou_listadd">
+					<ul>
+						<li>
+							<div class="tuangou_listpic">
+								111
+							</div>
+							<div class="tuangou_listsm">
+								<p class="til">单人自助午餐1/单人自助午餐单人自助午餐1/单人自助午餐..</p>
+								<p><span>截止日期</span><span>2017.04.16</span></p>
+								<p><span>已售</span><span>1024</span></p>
+							</div>
+							<div class="price" style="">
+								<p><span class="price_pic1"></span><span class="mino">￥</span><span class="bigo">500</span><span class="mino">+</span><span class="bigo">200</span><span class="mino">积分</span></p>
+								<p><span class="price_pic2"></span><span class="minh">￥</span><span class="bigh">500</span><span class="minh">送</span><span class="bigh">200</span><span class="minh">积分</span></p>
+								<p><span class="price_pic3"></span><span class="down">￥100</span></p>
+							</div>
+							<div class="ljqg" style="width: 78px;height: 30px;background-color:#F29518;border-radius: 5px;float: left;margin-top: 65px;color: #FFFFFF;font-size: 14px;text-align: center;line-height:28px ;">
+								立即抢购
+							</div>
+						</li>
+						<li>
+							<div class="tuangou_listpic">
+								111
+							</div>
+							<div class="tuangou_listsm">
+								<p class="til">单人自助午餐1/单人自助午餐单人自助午餐1/单人自助午餐..</p>
+								<p><span>截止日期</span><span>2017.04.16</span></p>
+								<p><span>已售</span><span>1024</span></p>
+							</div>
+							<div class="price" style="">
+								<p><span class="price_pic1"></span><span class="mino">￥</span><span class="bigo">500</span><span class="mino">+</span><span class="bigo">200</span><span class="mino">积分</span></p>
+								<p><span class="price_pic2"></span><span class="minh">￥</span><span class="bigh">500</span><span class="minh">送</span><span class="bigh">200</span><span class="minh">积分</span></p>
+								<p><span class="price_pic3"></span><span class="down" style="">￥100</span></p>
+							</div>
+							<div class="ljqg" style="width: 78px;height: 30px;background-color:#F29518;border-radius: 5px;float: left;margin-top: 65px;color: #FFFFFF;font-size: 14px;text-align: center;line-height:28px ;">
+								立即抢购
+							</div>
+						</li>
+						<li>
+							<div class="tuangou_listpic">
+								111
+							</div>
+							<div class="tuangou_listsm">
+								<p class="til">单人自助午餐1/单人自助午餐单人自助午餐1/单人自助午餐..</p>
+								<p><span>截止日期</span><span>2017.04.16</span></p>
+								<p><span>已售</span><span>1024</span></p>
+
+							</div>
+							<div class="price">
+								<p><span class="price_pic1">&nbsp;</span><span class="mino">￥</span><span class="bigo">500</span><span class="mino">+</span><span class="bigo">200</span><span class="mino">积分</span></p>
+								<p><span class="price_pic2">&nbsp;</span><span class="minh">￥</span><span class="bigh">500</span><span class="minh">送</span><span class="bigh">200</span><span class="minh">积分</span></p>
+								<p><span class="price_pic3">&nbsp;</span><span class="down" style="">￥100</span></p>
+							</div>
+							<div class="ljqg">
+								立即抢购
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="tuangou_arrow">
+					<div class="tuangou_arrowin" style="cursor:pointer">
+					</div>
+				</div>
+			</div>
+			<!--评价-->
+			<div class="comment">
+				<div class="comment_title">
+					<p>本店评价</p>
+				</div>
+				<div class="comment_box">
+					<!--左边-->
+					<div class="comment_boxleft">
+						<div class="comment_boxleft_check">
+							<span class="active" style="cursor:pointer">
+								全部评价
+							</span>
+							<span style="cursor:pointer">
+								有图评价
+							</span>
+							<div class="zhpx" id="zhpx"><i class="px">综合排序</i><i class="ar"></i>
+							</div>
+							<div id="zhpxhide" style="">
+								<p class="active">综合排序</p>
+								<p>时间排序</p>
+							</div>
+						</div>
+						<div class="comment_boxleft_bacground">
+							<p class="noanswer">对不起,没有找到结果。</p>
+							<!--评价列表-->
+							<ul class="comment_list" id="itemContainer">
+								<li class="comment_listli">
+									<div class="comment_list_pic" style="margin-top: 20px;"></div>
+									<div class="comment_pingjia" style="margin-top: 15px;">
+										<p style="font-size:14px;color: #323333;line-height:30px ;">桥都麻袋</p>
+										<p style="color: #999899;"><span></span><span>5星</span><span>2017-03-18</span><span></span></p>
+										<p style="color: #666666;">第一次来巴厘岛，和闺蜜一起去的，感觉还不错，服务非常热情，菜品也不错，非常丰富，海鲜品类也挺多的挺多的牛排我们也吃上了，牛排排的队比较长，其他菜品种类也挺多，酸奶我的最爱，口味不错，下次一定还要再去啊我饿推荐烤鸭和扇贝</p>
+										<div class="content">
+											<div class="imgs">
+												<img class="margin_l0" index="0" src="/Myweb/img/huo(1).jpg" />
+												<img index="1" src="/Myweb/img/huo(2).jpg" />
+												<img index="2" src="/Myweb/img/huo(3).jpg" />
+												<img index="3" src="/Myweb/img/huo(4).jpg" />
+												<img index="4" src="/Myweb/img/huo(5).jpg" />
+											</div>
+											<div class="detailed" onselectstart="return false;">
+												<div class="detailed_left"><span> </span></div>
+												<div class="detailed_right"><span> </span></div>
+												<img src="/Myweb/img/huo(2).jpg" />
+											</div>
+										</div>
+									</div>
+									<div class="cle">
+									</div>
+								</li>
+								<li class="comment_listli">
+									<div class="comment_list_pic" style="margin-top: 20px;"></div>
+									<div class="comment_pingjia" style="margin-top: 15px;">
+										<p style="font-size:14px;color: #323333;line-height:30px ;">桥都麻袋</p>
+										<p style="color: #999899;"><span></span><span>5星</span><span>2017-03-18</span><span></span></p>
+										<p style="color: #666666;">第一次来巴厘岛，和闺蜜一起去的，感觉还不错，服务非常热情，菜品也不错，非常丰富，海鲜品类也挺多的挺多的牛排我们也吃上了，牛排排的队比较长，其他菜品种类也挺多，酸奶我的最爱，口味不错，下次一定还要再去啊我饿推荐烤鸭和扇贝</p>
+										<div class="content">
+											<div class="imgs">
+												<img class="margin_l0" index="0" src="/Myweb/img/huo(1).jpg" />
+												<img index="1" src="/Myweb/img/huo(2).jpg" />
+												<img index="2" src="/Myweb/img/huo(3).jpg" />
+												<img index="3" src="/Myweb/img/huo(4).jpg" />
+												<img index="4" src="/Myweb/img/huo(5).jpg" />
+											</div>
+											<div class="detailed" onselectstart="return false;">
+												<div class="detailed_left"><span> </span></div>
+												<div class="detailed_right"><span> </span></div>
+												<img src="/Myweb/img/huo(2).jpg" />
+											</div>
+										</div>
+									</div>
+									<div class="cle"></div>
+								</li>
+								<li class="comment_listli">
+									<div class="comment_list_pic" style="margin-top: 20px;"></div>
+									<div class="comment_pingjia" style="margin-top: 15px;">
+										<p style="font-size:14px;color: #323333;line-height:30px ;">桥都麻袋</p>
+										<p style="color: #999899;"><span></span><span>5星</span><span>2017-03-18</span><span></span></p>
+										<p style="color: #666666;">第一次来巴厘岛，和闺蜜一起去的，感觉还不错，服务非常热情，菜品也不错，非常丰富，海鲜品类也挺多的挺多的牛排我们也吃上了，牛排排的队比较长，其他菜品种类也挺多，酸奶我的最爱，口味不错，下次一定还要再去啊我饿推荐烤鸭和扇贝</p>
+										<div class="content">
+											<div class="imgs">
+												<img class="margin_l0" index="0" src="/Myweb/img/huo(1).jpg" />
+												<img index="1" src="/Myweb/img/huo(2).jpg" />
+												<img index="2" src="/Myweb/img/huo(3).jpg" />
+												<img index="3" src="/Myweb/img/huo(4).jpg" />
+												<img index="4" src="/Myweb/img/huo(5).jpg" />
+											</div>
+											<div class="detailed" onselectstart="return false;">
+												<div class="detailed_left"><span> </span></div>
+												<div class="detailed_right"><span> </span></div>
+												<img src="/Myweb/img/huo(2).jpg" />
+											</div>
+										</div>
+									</div>
+									<div class="cle"></div>
+								</li>
+								<li class="comment_listli"></li>
+							</ul>
+							<!--分页器-->
+							<div class="fenye">
+								<div class="holder"></div>
+							</div>
+						</div>
+					</div>
+
+					<!--右边-->
+					<div class="comment_boxright">
+						<div class="comment_contain">
+							<div class="comment_containtop">
+								<span class="active">猜你喜欢</p>
+							</div>
+							<div class="comment_containbody">
+								<ul>
+									<li>
+										<div class="pic">
+													
+										</div>
+										<div class="bodyr">
+											<p class="til">饭局</p>
+											<p class="star"><i>&nbsp;</i><i>&nbsp;</i><i>&nbsp;</i><i>&nbsp;</i><i>&nbsp;</i></p>
+											<p class="ads" >鼓楼区</p>
+										</div>
+									</li>
+									
+								</ul>
+							</div>
+						</div>
+						<div class="comment_contain">
+							<div class="comment_containtop">
+								<span class="active">附近团购</span>
+								<span>附近商家</p>
+							</div>
+							<div class="comment_containbody">
+								<ul>
+									<li>
+										<div class="pic">
+													
+										</div>
+										<div class="bodyd">
+											<p class="til">川锅一号火锅</p>
+											<p class="ads" >川锅一号火锅100元午川锅一号火锅100元午</p>
+										</div>
+									</li>
+									
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="cle"></div>
+				</div>
+			</div>
+			<div class="gototop" id="returnTop"></div>
+			<div class="picture_viewer" >
+				<div class="close" id="close"></div>
+				<div class="prev1" id="prev1"></div>
+				<div class="next1" id="next1"></div>
+				<div class="ban" id="picview">
+					<div class="ban2" id="ban_pic1">
+						<ul>
+							<li><a href="javascript:;"><img src="/Myweb/img/huo(2).jpg" alt=""></a></li>
+							<li><a href="javascript:;"><img src="/Myweb/img/huo(3).jpg" alt=""></a></li>
+							<li><a href="javascript:;"><img src="/Myweb/img/huo(4).jpg" alt=""></a></li>
+							<li><a href="javascript:;"><img src="/Myweb/img/huo(5).jpg" alt=""></a></li>
+							<li><a href="javascript:;"><img src="/Myweb/img/huo(2).jpg" alt=""></a></li>
+							<li><a href="javascript:;"><img src="/Myweb/img/huo(3).jpg" alt=""></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="prev_btn1" id="prev_btn1"></div>
+					<div class="min_pic">
+						<div class="num clearfix" id="ban_num1">
+							<ul>
+								<li><a href="javascript:;"><img src="/Myweb/img/huo(2).jpg"  alt=""></a></li>
+								<li><a href="javascript:;"><img src="/Myweb/img/huo(3).jpg"  alt=""></a></li>
+								<li><a href="javascript:;"><img src="/Myweb/img/huo(4).jpg"  alt=""></a></li>
+								<li><a href="javascript:;"><img src="/Myweb/img/huo(5).jpg"  alt=""></a></li>
+								<li><a href="javascript:;"><img src="/Myweb/img/huo(2).jpg"  alt=""></a></li>
+								<li><a href="javascript:;"><img src="/Myweb/img/huo(3).jpg"  alt=""></a></li>
+							</ul>
+						</div>	
+					</div>
+					<div class="next_btn1" id="next_btn1"></div>
+			</div>
+			<div class="map_viewer" >
+				<div class="close" id="closemap"></div>
+				<div class="mappic" ></div>
+			</div>
+				<!--联系电话-->
+			<div style="width: 100%;height: 0;clear: both;"></div>
+			<div class="telephone">
+				<div class="wrap">
+					<div class="telephone_center">
+						<div class="telephone_center_left">
+							<p class="p1">客服电话</p>
+							<p class="p2">400-8843-877</p>
+							<p class="p3">周一至周日8:00-22:00</p>
+						</div>
+						<div class="telephone_center_middle">
+							<h4>同城天下</h4>
+							<p>同城天下是服务于消费者吃喝玩乐的五折团购+外卖平台，构建积分+五折+社交的创新商业模式，从首创“积分价”概念到明晰的市场定位，同城天下以强劲内在驱动跳跃式前进</p>
+						</div>
+						<div class="telephone_center_right">
+							<h4>扫码下载同城天下APP</h4>
+							<img src="/Myweb/img/erweima.png" alt="" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--底部-->
+			<div style="width: 100%;height: 0;clear: both;"></div>
+				<div class="footer">
+					<div class="wrap">
+						<div class="footer_center">
+							<div class="footer_center_top">
+								<img src="/Myweb/img/suishitui.png" />
+								<img src="/Myweb/img/xianxingpeifu.png" />
+								<img src="/Myweb/img/guoqitui.png" />
+							</div>
+							<p class="footer_center_middle">
+								<a href="">帮助中心</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+								<a href="">店主之家</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+								<a href="">支付方式</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+								<a href="">售后服务</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+								<a href="">客服中心</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+								<a href="">关于我们</a>
+							</p>
+							<p class="footer_center_buttom">&copy;&nbsp;2017&nbsp;徐州掌汇网络科技有限公司&nbsp;zhanghuitongcheng.com&nbsp;
+								<a href="">苏ICP备15009587号-2</a>
+							</p>
+						</div>
+					</div>
+				</div>	
+		</body>
+
+		<script src="/Myweb/js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/Myweb/js/jquery-migrate-1.1.1.js"></script>
+		<script src="../js/jqueryPhoto.js"></script>
+		<script src="/Myweb/js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/Myweb/js/index_h.js" type="text/javascript" charset="utf-8"></script>
+		<!--分页-->
+		<script src="/Myweb/js/jPages.min.js" type="text/javascript" charset="utf-8"></script>
+		<!--图片查看器-->
+		<script>
+			function qiehuan(){
+				//小图片点击，切换大图
+					$(".content .imgs").on("click","img",function(){
+						var src=$(this).attr("src")		//获取小图片地址
+						var $detailed=$(this).parents('.content').find(".detailed");
+						$(".detailed").removeClass("active"); //隐藏其他大图
+						$(".content .imgs img").removeClass("active");//清除其他小图的外框
+						$(this).addClass('active');						//这个小图加外框
+						$detailed.addClass("active").find("img").attr("src",src);		//这个大图显示并设置地址
+						var height=$detailed.children("img").height();
+						$detailed.children("div").css("height",height);	
+					})
+					
+					//图片左右鼠标移入区域  出现左右切换图片的提示
+					$(".detailed div").mouseenter(function(){
+						var leng=$(this).parents('.content').find(".imgs img").length;
+						console.log(leng);
+						if(leng>1){					
+							$(this).children("span").addClass("active");
+						}else{
+							$(this).children("span").removeClass("active");
+						}
+					})
+					$(".detailed div").mouseleave(function(){
+						$(this).children("span").removeClass("active");
+					})
+			
+					//点击左右切换大图片
+					$(".detailed div").on("click",function(){
+						var $imgs=$(this).parents('.content').find(".imgs");
+						var leng=$imgs.children('img').length-1;
+						var index=$imgs.children("img.active").attr("index");
+						if($(this).hasClass("detailed_left")){
+							index--;
+							if(index<0){
+								index=leng;
+							}
+						}else{
+							index++;
+							if(index>leng){
+								index=0
+							}
+						}
+						$imgs.children("img").removeClass("active");
+						var src=$imgs.children("[index="+index+"]").addClass("active").attr("src");		
+						$(this).nextAll('img').attr("src",src);	
+						var height=$(this).nextAll('img').height();
+						console.log(height);
+						$(this).parents(".detailed").children("div").css("height",height);
+					})
+		
+				}
+			qiehuan();	
+		</script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				            $('#map').click(function(){
+				            	$('.map_viewer').show();
+				            });
+							$('#closemap').click(function(){
+								$(this).parent("div").hide();
+							});
+							$('.picture_viewer').mouseover(function(){
+								$('.next1,.prev1').show();
+							});
+							$('.picture_viewer').mouseout(function(){
+								$('.next1,.prev1').hide();
+							});
+
+							$('.tuangou_arrowin').click(function() {
+								$(this).hide();
+								$('.tuangou_arrow').hide();
+								$('.tuangou_listadd').slideDown();
+							});
+							$('.comment_boxleft_check span').click(function() {
+								$(this).addClass('active').siblings().removeClass('active');
+			
+							});
+							$("#zhpxhide p").click(function() {
+								$(this).addClass('active').siblings().removeClass('active');
+								$("#zhpxhide").hide();
+								$("#zhpx .px").html($(this).html());
+							});
+							$('.comment_containtop span').click(function() {
+								$(this).addClass('active').siblings().removeClass('active');
+			
+							});
+							$("#seemore").click(function() {
+								$('.picture_viewer').css('z-index', '99');
+								$('.picture_viewer').css('opacity', '1');
+							});
+							$("#close").click(function() {
+								$('.picture_viewer').css('z-index', '-1');
+								$('.picture_viewer').css('opacity', '0');
+							});
+							$("#zhpx").toggle(function() {
+								$('#zhpxhide').show();
+								
+							}, function() {
+								/*$('.pic_boxhide').slideUp(200);*/
+							});
+							$(".pic_box").toggle(function() {
+								$(this).find('.pic_boxhide').slideDown(200);
+								
+							}, function() {
+								/*$('.pic_boxhide').slideUp(200);*/
+							});
+							$("#returnTop").hide();
+							$(window).scroll(function() {
+								if($(window).scrollTop() >= 100) {
+									$('#returnTop').fadeIn(400);
+								} else {
+									$('#returnTop').fadeOut(200);
+								};
+							});
+							$("#returnTop").click(function() {
+								var speed = 200; //滑动的速度
+								$('body,html').animate({
+									scrollTop: 0
+								}, speed);
+								return false;
+							});
+			
+							$("div.holder").jPages({
+								containerID: "itemContainer", //需要被分页的容器
+								previous: "", //前进后退 内容字
+								next: "",
+								first: "首页",
+								last: "尾页",
+								startPage: 1, //起始显示的页码
+								perPage: 3, //每页的内容数量
+								midRange: 2, //分页器中间页数
+								startRange: 1, //开头页数
+								endRange: 1 //结尾页数	
+							});
+						});
+						$('#picview').banqh({
+							box:"#picview",//总框架
+							pic:"#ban_pic1",//大图框架
+							pnum:"#ban_num1",//小图框架
+							prev_btn:"#prev_btn1",//小图左箭头
+							next_btn:"#next_btn1",//小图右箭头
+							pop_prev:"#prev2",//弹出框左箭头
+							pop_next:"#next2",//弹出框右箭头
+							prev:"#prev1",//大图左箭头
+							next:"#next1",//大图右箭头
+							pop_div:"#demo2",//弹出框框架
+							pop_pic:"#ban_pic2",//弹出框图片框架
+							pop_xx:".pop_up_xx",//关闭弹出框按钮
+							autoplay:false,//是否自动播放
+							interTime:5000,//图片自动切换间隔
+							delayTime:400,//切换一张图片时间
+							pop_delayTime:400,//弹出框切换一张图片时间
+							order:0,//当前显示的图片（从0开始）
+							picdire:true,//大图滚动方向（true为水平方向滚动）
+							mindire:true,//小图滚动方向（true为水平方向滚动）
+							min_picnum:5,//小图显示数量
+							pop_up:true//大图是否有弹出框
+						})
+						
+		</script>
+		<!--隐藏框-->
+</html>

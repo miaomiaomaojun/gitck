@@ -1,0 +1,283 @@
+@charset "utf-8";
+
+
+.inner{
+	width: 944px;
+	margin: 0 auto;	
+}
+.inner .header{
+	padding:0 10px;
+	overflow: hidden;
+}
+.inner .header .logo{
+	height:55px;
+	margin: 60px 0;
+}
+.inner .header .logo a{
+	display: inline-block;
+}
+.inner .header .logo a img{
+	height: 55px;
+}
+
+
+.center{
+	overflow: hidden;
+	padding: 10px;
+	width: 924px;
+	height: 419px;
+	background:url(/Myweb/img/reset_guang.png);
+	display: none;
+}
+.center.active{
+	display: block;
+}
+
+.center .center_title{
+	margin-top: 34px;
+	margin-left: 75px;
+	font-size: 20px;
+	color: #ed6c00;
+}
+
+.center .center_state{
+	margin-top: 15px;
+	margin-left: 183px;
+	background: url(/Myweb/img/reset_state.png) no-repeat -1px -1px;
+	width:558px;
+	height: 25px;
+}
+.center .center_liss{
+	margin-bottom: 122px;
+	overflow: hidden;
+}
+
+.center .center_liss .c_l_wrong{
+	height: 30px;
+	margin: 14px auto;
+	/*display: none;*/
+}
+.center .center_liss .c_l_wrong p{
+	border: 1px solid red;
+	text-align: center;
+	line-height: 28px;
+	color: red;
+	display: none;
+}
+.center .center_liss .c_l_wrong .active{
+	display: block;
+}
+
+.center .center_liss div{
+	width: 353px;
+	overflow: hidden;
+	margin: 18px auto 0 auto;
+}
+.center .center_liss .c_l_user{
+	margin-top: 0;
+}
+.center .center_liss div label{
+	height: 33px;
+	float: left;
+	display: inline-block;
+	width: 85px;
+	text-align: right;
+	margin-right: 10px;
+	line-height: 33px;
+}
+.center .center_liss div input{
+	height: 31px;
+	float: left;
+	text-indent: 10px;
+	width: 253px;
+	border: 1px solid #eeeeef;
+	line-height: 31px;
+	outline: none;
+}
+
+.center .center_liss .c_l_yzm input{
+	width: 123px;
+}
+.center .center_liss .c_l_yzm img{
+	float: left;
+	width: 88px;
+	height: 33px;
+	margin: 0 1px;
+}
+
+.center .center_liss .c_l_yzm div{
+	display: inline-block;
+	width: 40px;
+	height: 33px;
+	font-size:12px;
+	float: left;
+	margin: 0;
+	cursor: pointer;
+}
+.center .center_liss .c_l_yzm span{
+	float: left;
+	width: 40px;
+	height: 16px;
+}
+
+.center .center_liss .c_l_deng p{
+	float: left;
+	width: 258px;
+	height: 33px;
+	background: url(/Myweb/img/btn2.png);
+	line-height: 33px;
+	text-align: center;
+	color:#fff;
+	cursor: pointer;
+}
+
+/*第二个页面*/
+
+.center1.active{
+	display: block;
+}
+
+.center1 .center1_state{
+	margin-top: 15px;
+	margin-left: 183px;
+	background: url(/Myweb/img/reset_state.png) no-repeat -1px -48px;
+	width:558px;
+	height: 25px;
+}
+.center1 .center1_liss .c1_liss_tate{
+	margin: 55px 0 0 183px;
+}
+.center1 .center1_liss .c1_liss_tate p span{
+	color:#dc0012;
+	font-weight: bold;
+}
+
+.center1 .center1_liss .c1_liss_yzm{
+	height: 34px;
+	width: 240px;
+	margin: 35px auto 20px auto;
+	text-align: center;
+}
+.center1 .center1_liss .c1_liss_yzm input{
+	width: 128px;
+	height:32px;
+	border: 1px solid #eeeeef;
+	float: left;
+	text-indent: 10px;
+	line-height: 32px;
+}
+.center1 .center1_liss .c1_liss_yzm .yanzhengma{
+	height:34px;
+	width: 108px;
+	background: #eeeeef;
+	float: left;
+	line-height: 34px;
+	margin-left:1px;
+}
+.center1 .center1_liss .c1_liss_yzm .yanzhengma.disabel{
+	color:#898989;
+	background: #efefef;
+}
+.center1 .center1_liss .c1_liss_deng{
+	height: 34px;
+	width: 240px;
+	margin:0 auto;
+	text-align: center;
+}
+.center1 .center1_liss .c1_liss_deng div{
+	width: 142px;
+	height: 32px;
+	border: 1px solid #eb6100;
+	background: url(/Myweb/img/btn2.png);
+	line-height: 32px;
+	text-align: center;
+	display: inline-block;
+	cursor: pointer;
+	color: #fff;
+}
+.center1 .center1_liss .c1_liss_deng span{
+	width: 86px;
+	display: inline-block;
+	text-align: right;
+	color: #009fe8;
+	cursor: pointer;
+}
+
+/*第三个页面*/
+.center2.active{
+	display: block;
+}
+.center2 .center2_state{
+	margin-top: 15px;
+	margin-left: 183px;
+	background: url(/Myweb/img/reset_state.png) no-repeat -1px -95px;
+	width:558px;
+	height: 25px;
+}
+.center2 .center2_liss .c2_liss_tate{
+	margin: 55px 0 0 183px;
+}
+.center2 .center2_liss .c2_liss_wrap{
+	width: 344px;
+	margin:16px auto;
+	height: 34px;
+}
+.center2 .center2_liss .c2_liss_wrap label{
+	width: 60px;
+	height: 34px;
+	display: inline-block;
+	text-align: right;
+	margin-right: 10px;
+	float: left;
+	line-height: 34px;
+}
+.center2 .center2_liss .c2_liss_wrap input{
+	width: 227px;
+	display: inline-block;
+	text-indent: 10px;
+	height: 32px;
+	line-height: 32px;
+	border: 1px solid #eeeeef;
+	float: left;
+}
+.center2 .center2_liss .c2_liss_wrap span{
+	display: none;
+	width: 35px;
+	height: 34px;
+	background:url(/Myweb/img/tishi.png) no-repeat;
+	float: left;
+}
+.center2 .center2_liss .c2_liss_wrap .ok{
+	display: inline-block;
+}
+.center2 .center2_liss .c2_liss_wrap .error{
+	display: inline-block;
+	background-position:0 -34px;
+}
+
+.center2 .center2_liss .c2_liss_wrap div{
+	width: 227px;
+	display: inline-block;
+	text-align: center;
+	height: 32px;
+	line-height: 32px;
+	border: 1px solid #eb6100;
+	float: left;
+	background: url(/Myweb/img/btn2.png);
+	color: #fff;
+	cursor: pointer;
+}
+
+
+/*底部*/
+
+.inner .footer{
+	margin-top: 40px;
+}
+.inner .footer p{
+	text-align: center;
+	color: #8a8989;
+}
+.inner .footer p a{
+	color: #1169ab;
+}

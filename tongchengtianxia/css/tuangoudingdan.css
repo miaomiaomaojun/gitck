@@ -1,0 +1,263 @@
+@charset "utf-8";
+
+
+
+.dingdan .dingdan_right .dingdan_right_fenlei{
+	height: 45px;
+	line-height: 45px;
+	padding:0 8px;
+}
+.dingdan .dingdan_right .dingdan_right_fenlei select{
+	height: 25px;
+	border: 1px solid #eeeeef;
+	color: #999;
+}
+
+
+ /*这是团购订单*/
+
+.dingdan .dingdan_right .dingdan_right_title{
+	width: 822px;
+	background: #f7f7f7;
+	height: 34px;
+	margin-left: 8px;
+}
+.dingdan .dingdan_right .dingdan_right_title li{
+	float: left;
+	line-height: 34px;
+	text-align: center;
+}
+.dingdan .dingdan_right .dingdan_right_title .li1{
+	width: 374px;
+}
+.dingdan .dingdan_right .dingdan_right_title .li2{
+	width: 58px;
+}
+.dingdan .dingdan_right .dingdan_right_title .li3{
+	width: 138px;
+}
+.dingdan .dingdan_right .dingdan_right_title .li4{
+	width: 98px;
+
+}
+.dingdan .dingdan_right .dingdan_right_title .li5{
+	width: 98px;
+}
+
+.dingdan .dingdan_right .dingdan_right_list{
+	margin-left: 8px;
+	width: 822px;
+}
+.dingdan .dingdan_right .dingdan_right_list li{
+	height: 133px;
+}
+.dingdan .dingdan_right .dingdan_right_list li .list_title{
+	padding-top: 10px;
+	height: 23px;
+}
+.dingdan .dingdan_right .dingdan_right_list li .list_title p{
+	float: left;
+	color: #888;
+}
+.dingdan .dingdan_right .dingdan_right_list li .list_title span{
+	float: right;
+	color: #c8c9ca;
+	cursor: pointer;
+}
+.dingdan .dingdan_right .dingdan_right_list li .list_title span b{
+	padding-left: 12px;
+	background:url(/Myweb/img/dingdanbg.png) no-repeat 0 2px;
+}
+.dingdan .dingdan_right .dingdan_right_list li .list_main{
+	height: 100px;
+	background: #f7f7f7;
+	width: 100%;
+}
+.dingdan .dingdan_right .dingdan_right_list li .list_main>div{
+	float: left;
+	text-align: center;
+	font-size: 12px;
+}
+.dingdan .dingdan_right .dingdan_right_list li .list_main .dv1{
+	width: 374px;
+}
+.dingdan .dingdan_right .dingdan_right_list li .list_main .dv1 dl{
+}
+.dingdan .dingdan_right .dingdan_right_list li .list_main .dv1 dl dt{
+	float: left;
+	padding: 10px;
+}
+.dingdan .dingdan_right .dingdan_right_list li .list_main .dv1 dl dt img{
+	width: 80px;
+	height: 80px;
+}
+.dingdan .dingdan_right .dingdan_right_list li .list_main .dv1 dl dd{
+	float: left;
+	height: 60px;
+	padding: 20px 0;
+	text-align: left;
+}
+.dingdan .dingdan_right .dingdan_right_list li .list_main .dv1 dl dd p{
+	line-height: 20px;
+	height: 20px;
+}
+.dingdan .dingdan_right .dingdan_right_list li .list_main .dv1 dl dd .ordername a{
+	color: #595757;
+}
+.dingdan .dingdan_right .dingdan_right_list li .list_main .dv1 dl dd .ordername a i{
+	background: url(/Myweb/img/dingdanbg.png) no-repeat -35px 0;
+	padding:0 9px;
+}
+.dingdan .dingdan_right .dingdan_right_list li .list_main .dv1 dl dd .usefullife{
+	color: #999;
+}
+.dingdan .dingdan_right .dingdan_right_list li .list_main .dv1 dl dd .business a{
+	color: #F2AA79;
+}
+
+.dingdan .dingdan_right .dingdan_right_list li .list_main .dv2{
+	width: 58px;
+	padding: 20px 0;
+}
+.dingdan .dingdan_right .dingdan_right_list li .list_main .dv3{
+	width: 138px;
+	padding: 20px 0;
+}
+.dingdan .dingdan_right .dingdan_right_list li .list_main .dv3 p{
+	color:#595757;
+	line-height: 20px;
+	height: 20px;
+}
+.dingdan .dingdan_right .dingdan_right_list li .list_main .dv3 p del{
+	color: #888;
+}
+.dingdan .dingdan_right .dingdan_right_list li .list_main .dv3 p i{
+	display: inline-block;
+	width: 15px;
+}
+.dingdan .dingdan_right .dingdan_right_list li .list_main p i.tongcheng{
+	background:url(/Myweb/img/dingdanbg.png) no-repeat -75px 2px;
+}
+.dingdan .dingdan_right .dingdan_right_list li .list_main p i.jifen{
+	background:url(/Myweb/img/dingdanbg.png) no-repeat -112px 2px;
+}
+
+.dingdan .dingdan_right .dingdan_right_list li .list_main .dv4{
+	width: 98px;
+	padding: 20px 0 10px 0;
+}
+.dingdan .dingdan_right .dingdan_right_list li .list_main .dv4 p{
+	height: 35px;
+	color: #ED6C00;
+}
+.dingdan .dingdan_right .dingdan_right_list li .list_main .dv4 p.user{
+	color:#595757;
+}
+.dingdan .dingdan_right .dingdan_right_list li .list_main .dv4 p.p2 a{
+	color:#F2AA79;
+}
+
+.dingdan .dingdan_right .dingdan_right_list li .list_main .dv5{
+	width: 98px;
+	padding: 20px 0;
+}
+
+.dingdan .dingdan_right .dingdan_right_list li .list_main .dv5 p{
+	color: #ED6C00;
+}
+.dingdan .dingdan_right .dingdan_right_list li .list_main .dv5 p.user{
+	color: #595757;
+}
+
+/*外卖订单样式*/
+.dingdan .dingdan_right .waimai .dingdan_right_title .li1{
+	width: 381px;
+}
+
+.dingdan .dingdan_right .waimai .dingdan_right_title .li2{
+	width:160px;
+}
+.dingdan .dingdan_right .waimai .dingdan_right_title .li3{
+	width:140px;
+}
+.dingdan .dingdan_right .waimai .dingdan_right_title .li4{
+	width:140px;
+}
+
+.dingdan .dingdan_right .waimai .dingdan_right_list li .list_main .dv1{
+	width: 381px;
+}
+
+.dingdan .dingdan_right .waimai .dingdan_right_list li .list_main .dv2{
+	width: 160px;
+	padding: 20px 0;
+}
+.dingdan .dingdan_right .waimai .dingdan_right_list li .list_main .dv2 p{
+	color:#595757;
+	line-height: 20px;
+	height: 20px;
+}
+.dingdan .dingdan_right .waimai .dingdan_right_list li .list_main .dv2 p del{
+	color: #888;
+}
+.dingdan .dingdan_right .waimai .dingdan_right_list li .list_main .dv2 p i{
+	display: inline-block;
+	width: 15px;
+}
+
+.dingdan .dingdan_right .waimai .dingdan_right_list li .list_main .dv3{
+	width: 140px;
+	padding: 20px 0;
+}
+.dingdan .dingdan_right .waimai .dingdan_right_list li .list_main .dv3 p{
+	height: 60px;
+	color: #ED6C00;
+	line-height: 60px;
+}
+.dingdan .dingdan_right .waimai .dingdan_right_list li .list_main .dv3 p.user{
+	color:#595757;
+}
+
+.dingdan .dingdan_right .waimai .dingdan_right_list li .list_main .dv4{
+	width: 140px;
+	padding: 0;
+}
+.dingdan .dingdan_right .waimai .dingdan_right_list li .list_main .dv4>a{
+	display: inline-block;
+	width: 80px;
+	height: 24px;
+	border: 1px solid #eeeeef;
+	line-height: 24px;
+	color: #999;
+	border-radius: 2px;
+	background: #fff;
+	margin-top: 10px;
+}
+.dingdan .dingdan_right .waimai .dingdan_right_list li .list_main .dv4>a:hover{
+	color: #F79F1E;
+	border: 1px solid #F79F1E;
+}
+.dingdan .dingdan_right .waimai .dingdan_right_list li .list_main .dv4>a:active{
+	color: #fff;
+	border: 1px solid #F79F1E;
+	background: #F79F1E;
+}
+
+.dingdan .dingdan_right .waimai .dingdan_right_list li .list_main .dv4 p{
+	height: 25px;
+	line-height:30px;
+}
+.dingdan .dingdan_right .waimai .dingdan_right_list li .list_main .dv4 p a{
+	color: #ED6C00;
+}
+.dingdan .dingdan_right .waimai .dingdan_right_list li .list_main .dv4 p.user a{
+	color:#595757;
+}
+
+.dingdan .dingdan_right .waimai .dingdan_right_list li .list_main .dv4 p.p3 a{
+	color:#888;
+}
+.dingdan .dingdan_right .waimai .dingdan_right_list li .list_main .dv4 p.user{
+	color: #595757;
+}
+

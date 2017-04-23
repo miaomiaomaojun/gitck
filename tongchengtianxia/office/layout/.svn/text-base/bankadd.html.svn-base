@@ -1,0 +1,14 @@
+
+<div style="margin: 15px;">
+	<form class="layui-form">
+		<div class="layui-form-item">
+			<label class="layui-form-label">银行名称</label>
+			<div class="layui-input-inline">
+				<input type="text" name="username" lay-verify="required" autocomplete="off" class="layui-input" placeholder="请输入">
+			</div>
+		</div>
+			
+		<button lay-filter="edit" lay-submit style="display: none;"></button>
+	</form>
+</div>
+	
